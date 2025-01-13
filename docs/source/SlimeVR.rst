@@ -1,4 +1,4 @@
-API
+SlimeVR
 ===
 
 .. autosummary::

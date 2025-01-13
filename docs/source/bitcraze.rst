@@ -1,4 +1,4 @@
-Usage
+bitcraze
 =====
 
 .. _installation:
