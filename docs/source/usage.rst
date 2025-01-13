@@ -3,7 +3,7 @@ Usage
 
 .. _installation:
 
-Installation
+crazyflie 2.X
 ------------
 
 To use Lumache, first install it using pip:
@@ -12,7 +12,7 @@ To use Lumache, first install it using pip:
 
    (.venv) $ pip install lumache
 
-Creating recipes
+lighthouse
 ----------------
 
 To retrieve a list of random ingredients,
