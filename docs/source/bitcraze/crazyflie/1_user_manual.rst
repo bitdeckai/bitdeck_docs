@@ -11,15 +11,10 @@ Crazyflie 是来自 Bitcraze 开源工程的四旋翼飞行器，具备以下特
 -  基于 FreeRTOS 编写，将复杂的无人机系统，分解成多个具有不同优先级的软件任务。
 -  设计了功能完备的 cfclient 上位机和 CRTP 通信协议，便于实现调试、测量和控制。
 
-.. figure:: ./_static/crazyflie-overview.png
+.. figure:: ./_static/CF21_plus_585px.jpg
    :align: center
    :alt: crazyflie-overview
    :figclass: align-center
-
-   多架无人机同时探索周围环境，灵活避开障碍物，同时避开其它无人机。\ `A
-   swarm of drones exploring the environment, avoiding obstacles and
-   each other. (Guus Schoonewille, TU
-   Delft) <https://img-blog.csdnimg.cn/20191030202634944.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIwNTE1NDYx,size_16,color_FFFFFF,t_70>`__
 
 详情可查阅 `Crazyflie 官网 <https://www.bitcraze.io/>`__。
 
@@ -41,7 +36,7 @@ Crazyflie2.1 具备以下特性：
 
 Crazyflie2.1 使用模块化的设计思路，由主控板和扩展板组成。
 
--  **主控制板**：搭载 STM32F405RG 主控芯片和nRF52811蓝牙芯片,支持基础飞行的必要传感器,并提供硬件扩展接口。
+-  **主控制板**：搭载STM32F405RG主控芯片和nRF52811蓝牙芯片,支持基础飞行的必要传感器,并提供硬件扩展接口。
 -  **扩展板**：搭载扩展传感器，可对接主控制板的硬件扩展接口，支持高级飞行功能。
 
 ==== ========================= ========================= ================== ========================== ==============
