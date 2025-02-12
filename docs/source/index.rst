@@ -15,6 +15,6 @@
    :caption: 目录:
    :numbered:
 
-   crazyflie/introduction
-   deck/introduction
+   bitcraze/crazyflie/introduction
+   bitcraze/deck/introduction
 
