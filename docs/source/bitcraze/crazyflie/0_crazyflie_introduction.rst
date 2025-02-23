@@ -3,7 +3,7 @@ Crazyflie2.X
 
 Crazyflie2.X 是一款由 Bitcraze 公司开发的开源微型四轴飞行器，是一款灵活、开源的微型无人机，适合研究、教育和开发，凭借其丰富的扩展性和活跃的社区支持，成为开发者的理想选择。
 
-.. figure:: ../../images/bitcraze/CF21_plus_585px.jpg
+.. figure:: ../../_static/images/bitcraze/CF21_plus_585px.jpg
    :align: center
    :alt: crazyflie-overview
    :figclass: align-center
