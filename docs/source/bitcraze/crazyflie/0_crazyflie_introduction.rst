@@ -53,5 +53,5 @@ Crazyflie2.X 是一款由 Bitcraze 公司开发的开源微型四轴飞行器，
    :maxdepth: 2
    :caption: 目录:
    
-   组装测试 <1_assembly>
+   组装测试 <1_crazyflie_assembly>
    
