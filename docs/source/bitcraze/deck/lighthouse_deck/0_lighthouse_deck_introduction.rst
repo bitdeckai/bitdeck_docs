@@ -42,6 +42,11 @@ V1 和 V2
 
 为了能够测量位置和方向，Crazyflie 需要知道灯塔基站在房间中的位置和方向，这被称为系统几何结构。几何结构可以由 Crazyflie 客户端自动获取并存储在 Crazyflie 中。它也可以保存到文件中，这样就可以将相同的几何信息写入多个 Crazyflie，从而实现在同一个跟踪空间中飞行多个 Crazyflie 集群。
 
+.. figure:: ../../../images/documentation/overview/bs-geometry.png
+
+   :align: center
+   :alt: lighthouse 定位系统
+   :figclass: align-center
 
 系统性能
 ----------------
