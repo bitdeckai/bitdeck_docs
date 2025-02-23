@@ -48,6 +48,5 @@ epub_show_urls = 'footnote'
 html_static_path = ['_static']
 
 extensions = [
-    # ... 其他扩展 ...
     'sphinx_tabs.tabs'
 ]
