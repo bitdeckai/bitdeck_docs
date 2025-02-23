@@ -15,7 +15,7 @@ Crazyflie 2.X 快速入门
 
 请按照下述步骤组装 ESP32-S2-Drone V1.2：
 
-.. figure:: ../../_static/assembling.png
+.. figure:: ../../images/assembling.png
    :align: center
    :alt: ESP32-S2-Drone V1.2 组装流程
    :figclass: align-center
@@ -26,7 +26,7 @@ Crazyflie 2.X 快速入门
 
 **扫描下方二维码，下载 Android APP：**
 
-.. figure:: ../../_static/android_app_download.png
+.. figure:: ../../images/android_app_download.png
    :align: center
    :alt: Android APP 扫码下载
    :figclass: align-center
@@ -44,7 +44,7 @@ Crazyflie 2.X 快速入门
 
 安装 cfclient 为可选步骤，用于实现高级调试，非必须使用。
 
-.. figure:: ../../_static/cfclient.png
+.. figure:: ../../images/cfclient.png
    :align: center
    :alt: cfclient 上位机界面
    :figclass: align-center
@@ -80,7 +80,7 @@ Crazyflie 2.X 快速入门
 
 **2. 配置遥控器**
 
-.. figure:: ../../_static/gamepad_settings.png
+.. figure:: ../../images/gamepad_settings.png
    :align: center
    :alt: 游戏手柄配置
    :figclass: align-center
@@ -99,7 +99,7 @@ Crazyflie 2.X 快速入门
 -  轻推油门，小飞机起飞。
 -  在 APP 上滑动，控制小飞机方向。
 
-.. figure:: ../../_static/espdrone_app_android.png
+.. figure:: ../../images/espdrone_app_android.png
    :align: center
    :alt: Android APP 用户界面
    :figclass: align-center
@@ -113,14 +113,14 @@ cfclient 是 ``Crazeflie`` 源工程的上位机，完全实现了 ``CRTP``
 协议中定义的功能，可以加快飞机的调试过程。ESP-Drone
 项目对该上位机进行裁剪和调整，满足功能设计需求。
 
-.. figure:: ../../_static/cfclient_architecture.png
+.. figure:: ../../images/cfclient_architecture.png
    :align: center
    :alt: cfclient 架构
    :figclass: align-center
 
    cfclient 架构
 
-.. figure:: ../../_static/cfclient.png
+.. figure:: ../../images/cfclient.png
    :align: center
    :alt: cfclient 控制台界面
    :figclass: align-center
@@ -174,7 +174,7 @@ File <https://www.bitcraze.io/documentation/repository/crazyflie-clients-python/
 
 按照提示绑定遥控器摇杆与各个控制通道：
 
-.. figure:: ../../_static/gamepad_set.png
+.. figure:: ../../images/gamepad_set.png
    :align: center
    :alt: cfclient 控制器配置
    :figclass: align-center
@@ -194,7 +194,7 @@ File <https://www.bitcraze.io/documentation/repository/crazyflie-clients-python/
 
 **在线调整 PID 参数**
 
-.. figure:: ../../_static/cfclient_pid_tune.png
+.. figure:: ../../images/cfclient_pid_tune.png
    :align: center
    :alt: PID 参数调整
    :figclass: align-center
@@ -213,14 +213,14 @@ File <https://www.bitcraze.io/documentation/repository/crazyflie-clients-python/
 
 **配置要监控的参数**
 
-.. figure:: ../../_static/log_set.png
+.. figure:: ../../images/log_set.png
    :align: center
    :alt: PID 参数调整
    :figclass: align-center
 
    监控参数配置
 
-.. figure:: ../../_static/log_set2.png
+.. figure:: ../../images/log_set2.png
    :align: center
    :alt: PID 参数调整
    :figclass: align-center
@@ -231,7 +231,7 @@ File <https://www.bitcraze.io/documentation/repository/crazyflie-clients-python/
 
 陀螺仪加速度计实时数据监测：
 
-.. figure:: ../../_static/log_acc.png
+.. figure:: ../../images/log_acc.png
    :align: center
    :alt: PID 参数调整
    :figclass: align-center
@@ -244,7 +244,7 @@ File <https://www.bitcraze.io/documentation/repository/crazyflie-clients-python/
 -  按照下图所示位置，安装 A、B 螺旋桨。
 -  飞行器上电自检时，检查螺旋桨转向是否正确。
 
-.. figure:: ../../_static/espdrone_s2_v1_2_diretion2.png
+.. figure:: ../../images/espdrone_s2_v1_2_diretion2.png
    :align: center
    :alt: 螺旋桨方向示图
    :figclass: align-center
