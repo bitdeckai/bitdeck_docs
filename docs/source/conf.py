@@ -40,21 +40,6 @@ html_theme_options = {
     'navigation_depth': 4,
     'includehidden': True,
     'titles_only': False,
-    
-    # 显示选项
-    'display_version': True,
-    'prev_next_buttons_location': 'bottom',
-    
-    # TOC 树选项
-    'collapse_navigation': True,     # 允许导航折叠
-    'sticky_navigation': True,       # 固定导航栏
-    'navigation_depth': 4,           # 导航深度
-    'includehidden': True,
-    'titles_only': False,
-    
-    # 当前页面自动展开
-    'globaltoc_collapse': False,     # 不全局折叠
-    'globaltoc_includehidden': True  # 包含隐藏的目录
 }
 
 # -- Options for EPUB output
