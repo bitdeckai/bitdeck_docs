@@ -9,8 +9,7 @@
 
 .. toctree::
    :maxdepth: 2
-   :caption: 目录:
 
-   bitcraze/crazyflie/0_crazyflie_introduction
+   bitcraze/crazyflie/crazyflie_list
    bitcraze/deck/deck_list
 
