@@ -8,7 +8,11 @@ Crazyradio PA/Crazyradio 2.0 是Crazyflie2.x和上位机之间通信的无线设
 驱动安装
 ----------
 
-首先，从其官方网站下载 Zadig：`http://zadig.akeo.ie/`。
+首先，从其官方网站下载 Zadig：`Zadig <http://zadig.akeo.ie/>`_。
+
+您也可以从以下链接下载 Zadig 驱动程序 zadig-2.9.rar：
+
+`下载 Zadig 驱动程序 <../../_static/driver/zadig-2.9.rar>`_
 
 将 Bitcraze 设备插入 PC。Windows 应该会显示一些安装窗口。在 Windows 8 和 10 上，它不会显示任何内容并自动关闭。在 Windows 7 上，您需要关闭安装失败的窗口。
 
