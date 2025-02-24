@@ -1,0 +1,71 @@
+Crazyradio
+===========
+
+Crazyradio PA/Crazyradio 2.0 是Crazyflie2.x和上位机之间通信的无线设备。
+
+大多数使用 USB 通信的 Bitcraze 产品在 Windows 上使用 libusb 驱动程序。该驱动程序允许与 USB 设备进行通信，而无需开发自定义驱动程序。本页面将解释如何使用 Zadig 工具安装 libusb 驱动程序。
+
+驱动安装
+----------
+
+首先，从其官方网站下载 Zadig：`http://zadig.akeo.ie/`。
+
+将 Bitcraze 设备插入 PC。Windows 应该会显示一些安装窗口。在 Windows 8 和 10 上，它不会显示任何内容并自动关闭。在 Windows 7 上，您需要关闭安装失败的窗口。
+
+.. figure:: ../../_static/images/crazyradio/01-win-install.png
+   :align: center
+   :alt: win-install
+
+.. figure:: ../../_static/images/crazyradio/crazyradio_windows_noinstall.png
+   :align: center
+   :alt: crazyradio_windows_noinstall
+
+一旦 Windows 的安装窗口关闭，启动 Zadig，您应该在列表中看到您的设备。选择设备，选择 libusb，然后点击“安装”按钮。
+
+.. figure:: ../../_static/images/crazyradio/02-zadig_setup.png
+   :align: center
+   :alt: zadig_setup
+
+安装过程应该会运行并成功完成。安装通常很快，但也可能需要一些时间：
+
+.. figure:: ../../_static/images/crazyradio/03-zadig_install.png
+   :align: center
+   :alt: zadig_install
+
+驱动程序现在已安装，您可以使用您的 USB Bitcraze 设备。
+
+.. figure:: ../../_static/images/crazyradio/04-zadig_done.png
+   :align: center
+   :alt: zadig_done
+
+重新安装驱动程序
+----------------
+
+如果驱动程序安装错误需要重新安装，或者如果 Windows 已经为该设备安装了其他驱动程序，请插入设备，启动 Zadig，然后点击“选项/显示所有设备”。您应该能够在列表中选择该设备并重新安装 libusb 驱动程序。例如，对于 Crazyradio。
+
+.. figure:: ../../_static/images/crazyradio/05-zadig_reinstall.png
+   :align: center
+   :alt: zadig_reinstall
+
+故障排除
+--------
+
+如果设备无法正常工作，请检查设备管理器中是否将其显示为 libusb 设备。如果不是，请尝试按照上述说明重新安装驱动程序。
+
+.. figure:: ../../_static/images/crazyradio/crazyradio-device_manager.png
+   :align: center
+   :alt: device_manager
+
+如果设备无法正常工作，您可以尝试安装 libUSBK 驱动程序，它在某些版本的 Bitcraze 软件中表现得更好：
+
+.. figure:: ../../_static/images/crazyradio/zadig_libusbk.png
+   :align: center
+   :alt: zadig_libusbk
+
+
+.. totree::
+   :maxdepth: 2
+   :caption: Crazyradio PA/2.0
+
+   crazyradioPA/0_crazyradioPA_deck_introduction
+   crazyradio2.0/0_crazyradio2.0_deck_introduction

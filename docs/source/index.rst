@@ -12,4 +12,5 @@
 
    bitcraze/crazyflie/crazyflie_list
    bitcraze/deck/deck_list
+   bitcraze/crazyradio/crazyradio_list
 
