@@ -10,6 +10,7 @@
 .. toctree::
    :maxdepth: 2
 
+   bitcraze/client/client_list
    bitcraze/crazyflie/crazyflie_list
    bitcraze/deck/deck_list
    bitcraze/crazyradio/crazyradio_list
