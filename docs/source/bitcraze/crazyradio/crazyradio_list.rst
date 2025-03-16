@@ -1,5 +1,5 @@
-Crazyradio
-===========
+Crazyradio PA/Crazyradio2.0
+============================
 
 Crazyradio PA/Crazyradio 2.0 是Crazyflie2.x和上位机之间通信的无线设备。
 
