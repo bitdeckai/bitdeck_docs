@@ -22,24 +22,25 @@ python安装
 crazyflie client安装
 ^^^^^^^^^^^^^^^^^^^^
 
-   python --version
+.. code-block:: bash
 
+   python --version
    pip --version
-   
    pip3 install --upgrade pip
-   
    pip3 install cfclient
-   
    python3 -m cfclient.gui
 
-   如果python3不支持，可以使用python
+如果python3不支持，可以使用python
+
+.. code-block:: bash
 
    python -m cfclient.gui
 
 如果网速很差，可以更换镜像源
 
-   pip config set global.index-url https://mirrors.aliyun.com/pypi/simple
+.. code-block:: bash
 
+   pip config set global.index-url https://mirrors.aliyun.com/pypi/simple
    pip config set install.trusted-host mirrors.aliyun.com
 
 Linux系统下安装
