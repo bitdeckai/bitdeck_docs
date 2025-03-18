@@ -48,7 +48,7 @@ Windows安装 下载并运行， `Loco Positioning configuration tool <https://g
     
 (2) 如果您使用的是 Windows，第一次使用时将无法识别该节点。您需要按照说明使用 Zadig 安装其 USB 驱动程序。在 DFU 模式下，该节点将在 Zadig 中显示为“STM32 BOOTLOADER”。
 
-.. figure:: ../../../_static//images/tutorials/getting_started_with_lps/press_dfu.png
+.. figure:: ../../../_static/images/tutorials/getting_started_with_lps/press_dfu.png
    :align: center
    :figclass: align-center
 

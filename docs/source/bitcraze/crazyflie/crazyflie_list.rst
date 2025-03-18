@@ -1,4 +1,4 @@
-Crazyflie 系列
+Crazyflie
 ===============
 
 .. toctree::

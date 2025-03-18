@@ -1,4 +1,4 @@
-Crazyflie-clients-python 客户端
+Crazyflie-clients-python
 ===================================
 
 Crazyflie PC 客户端支持刷写和控制 Crazyflie。它实现了用户界面和高级控制（例如游戏手柄处理）。与 Crazyflie 的通信以及控制 Crazflie 的 CRTP 协议的实现由cflib 项目负责。
