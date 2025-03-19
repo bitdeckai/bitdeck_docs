@@ -10,3 +10,4 @@ Deck 是为了扩展Crazyflie之外的更多功能而设计的。
    lighthouse_deck/0_lighthouse_deck_introduction
    loco_deck/0_loco_deck_introduction
    flow2_deck/0_flow2_deck_introduction
+   Multi-ranger_deck/0_multi-ranger_deck_introduction
