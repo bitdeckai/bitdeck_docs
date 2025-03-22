@@ -5,8 +5,8 @@ Crazyradio PA/Crazyradio 2.0 是Crazyflie2.x和上位机之间通信的无线设
 
 大多数使用 USB 通信的 Bitcraze 产品在 Windows 上使用 libusb 驱动程序。该驱动程序允许与 USB 设备进行通信，而无需开发自定义驱动程序。本页面将解释如何使用 Zadig 工具安装 libusb 驱动程序。
 
-驱动安装
-----------
+Windows 驱动安装
+----------------
 
 首先，从其官方网站下载 Zadig：`Zadig <http://zadig.akeo.ie/>`_。
 
@@ -66,6 +66,39 @@ Crazyradio PA/Crazyradio 2.0 是Crazyflie2.x和上位机之间通信的无线设
    :align: center
    :alt: zadig_libusbk
 
+Ubuntu 驱动安装
+----------------
+
+正常在Ubuntu中不用安装，但是需要开通权限
+
+以下步骤使得无需 root 身份即可通过 USB 使用 跟Crazyflie通信。
+
+.. code-block:: bash
+
+   sudo groupadd plugdev
+   sudo usermod -a -G plugdev $USER
+
+您需要注销并重新登录才能成为 plugdev 组的成员。
+
+将以下内容复制粘贴到您的控制台中，这将创建文件/etc/udev/rules.d/99-bitcraze.rules：
+
+.. code-block:: bash
+
+   cat <<EOF | sudo tee /etc/udev/rules.d/99-bitcraze.rules > /dev/null
+   # Crazyradio (normal operation)
+   SUBSYSTEM=="usb", ATTRS{idVendor}=="1915", ATTRS{idProduct}=="7777", MODE="0664", GROUP="plugdev"
+   # Bootloader
+   SUBSYSTEM=="usb", ATTRS{idVendor}=="1915", ATTRS{idProduct}=="0101", MODE="0664", GROUP="plugdev"
+   # Crazyflie (over USB)
+   SUBSYSTEM=="usb", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="5740", MODE="0664", GROUP="plugdev"
+   EOF
+
+您可以使用以下命令重新加载 udev 规则：
+
+.. code-block:: bash
+
+   sudo udevadm control --reload-rules
+   sudo udevadm trigger
 
 .. totree::
    :maxdepth: 2

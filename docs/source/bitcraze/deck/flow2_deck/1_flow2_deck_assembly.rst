@@ -1,3 +1,3 @@
-Multi-ranger deck 硬件组装
+Flow2 deck 硬件组装
 ===========================
 
