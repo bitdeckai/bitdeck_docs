@@ -1,5 +1,5 @@
-Crazyflie
-===============
+Crazyflie 2.1/Bolt/Brushless
+==============================
 
 .. toctree::
    :maxdepth: 2

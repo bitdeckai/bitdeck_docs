@@ -233,7 +233,7 @@ MacOS 安装
 操纵四轴飞行器
 ~~~~~~~~~~~~~~~~
 
-.. figure:: ../../../_static/images/getting-started/AxisImage.PNG
+.. figure:: ../../../_static/images/getting-started/AxisImage.png
    :align: center
    :alt: crazyflie-overview
    :figclass: align-center
