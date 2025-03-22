@@ -56,6 +56,22 @@ Crazyradio PA 是一款基于 Nordic Semiconductor 的 nRF24LU1+ 的长距离开
 - 低噪声放大器 (LNA)
 - RP-SMA 连接器
 
+Crazyradio PA 拓展用途(无线鼠标漏洞)
+-------------------------------------
+
+想象一下，无人机从窗外飞过，几秒钟内你的电脑就被黑客攻破！本视频展示了如何利用无人机和无线鼠标的漏洞（MouseJack）进行攻击，黑客可以在几秒内入侵你的电脑系统，远程控制文件、破坏数据。你是否也可能成为攻击的目标？揭秘现代无线设备背后的隐患，确保你的设备安全！
+
+.. raw:: html
+
+   <div style="text-align: center">
+      <video width="100%" height="auto" controls autoplay muted loop>
+         <source src="../../../_static/videos/crazyradio/crazyradioPA_hack.mp4" type="video/mp4">
+         Your browser does not support the video tag.
+      </video>
+   </div>
+
+视频出自 https://www.bilibili.com/video/BV1DdwTevEfC/?spm_id_from=333.337.top_right_bar_window_custom_collection.content.click&vd_source=043cb97b7bfecc6a495d2cdd5a873975
+
 资料下载
 --------
 
