@@ -78,6 +78,7 @@ V1 和 V2
 - `数据手册 <../../../_static/products/lighthouse-deck/datasheet/lighthouse_deck-datasheet.pdf>`_
 - `原理图 <../../../_static/products/lighthouse-deck/electronics/lighthouse_deck-revd.pdf>`_
 
+
 使用手册
 ----------------
 
@@ -87,4 +88,4 @@ V1 和 V2
 
    1_lighthouse_deck_assembly
    2_lighthouse_deck_getting_started
- 
+   3_lighthouse_deck_interference
