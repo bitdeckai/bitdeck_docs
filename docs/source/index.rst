@@ -36,5 +36,6 @@ Crazyflie2.1 & Robot Dog
    bitcraze/crazyflie/crazyflie_list
    bitcraze/crazyradio/crazyradio_list
    bitcraze/deck/deck_list
+   bitcraze/swarm/swarm_list
 
 
