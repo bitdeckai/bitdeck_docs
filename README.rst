@@ -22,6 +22,20 @@ git推送问题
 ------------
 
 ### 检查GitHub的ping的通否
+
+测试是否能访问目标仓库域名（如 github.com）
+
+    ping github.com
+
+测试特定端口是否开放（HTTP/HTTPS 默认 80/443，SSH 默认 22）
+
+    curl -vI https://github.com  # 检查 HTTPS 连通性
+    nc -zv github.com 443        # 检查端口连通性
+
+- 若超时或无响应
+- 检查防火墙、VPN 或路由器设置。
+- 尝试切换网络（如手机热点）。
+
 如果ping不通，修改C:\Windows\System32\drivers\etc下的hosts文件，添加如下两行：
 
 140.82.114.4 github.com
