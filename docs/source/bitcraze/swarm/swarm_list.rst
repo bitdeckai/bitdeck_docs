@@ -71,7 +71,7 @@ GitHub 仓库：
 
    https://www.bitcraze.io/2020/12/the-hyper-demo/
 
-.. figure:: ../../_static/videos/swarm/officeplan_blogpost.jpg
+.. figure:: ../../_static/videos/swarm/Bitcraze-Hyper-Demo/officeplan_blogpost.jpg
    :align: center
    :figclass: align-center
 
@@ -89,11 +89,11 @@ GitHub 仓库：
 
 厨房和竞技场之间的墙很厚，UWB 不太可能穿透，但我们仍然偶尔会从竞技场的锚点收到 LPS 数据。我们的解释是，这些数据包一定是在墙上弹跳到厨房的。这些零散的数据包被 Crazyflies 捕获，但由于 Lighthouse 基站提供了强大的信息源，LPS 数据包并没有造成任何问题。
 
-.. figure:: ../../_static/videos/swarm/hyperdemo1.jpg
+.. figure:: ../../_static/videos/swarm/Bitcraze-Hyper-Demo/hyperdemo1.jpg
    :align: center
    :figclass: align-center
 
-.. figure:: ../../_static/videos/swarm/hyperdemo-hw-1024x768.jpg
+.. figure:: ../../_static/videos/swarm/Bitcraze-Hyper-Demo/hyperdemo-hw-1024x768.jpg
    :align: center
    :figclass: align-center
 
@@ -101,12 +101,32 @@ GitHub 仓库：
 
    <div style="text-align: center">
       <video width="100%" height="auto" controls autoplay muted loop>
-         <source src="../../_static/videos/swarm/Bitcraze Hyper Demo 2020_5 crazyflies and the Crazyflie Bolt using 3 different positioning systems.mp4
-" type="video/mp4">
+         <source src="../../_static/videos/swarm/Bitcraze-Hyper-Demo/Bitcraze Hyper Demo 2020_5 crazyflies and the Crazyflie Bolt using 3 different positioning systems.mp4" type="video/mp4">
          Your browser does not support the video tag.
       </video>
    </div>
 
+视频4 --- 飞行器和车协同
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+   https://www.bitcraze.io/2017/07/multi-robot-path-planning-for-flying-and-driving-vehicles/
+
+.. figure:: ../../_static/videos/swarm/Multi-robot/image1-1024x683.jpg
+   :align: center
+   :figclass: align-center
+
+.. figure:: ../../_static/videos/swarm/Multi-robot/image5.png
+   :align: center
+   :figclass: align-center
+
+.. raw:: html
+
+   <div style="text-align: center">
+      <video width="100%" height="auto" controls autoplay muted loop>
+         <source src="../../_static/videos/swarm/Multi-robot/Multi-robot Path Planning for Flying-and-Driving Vehicles_1920x1080_h264.mp4" type="video/mp4">
+         Your browser does not support the video tag.
+      </video>
+   </div>
 
 .. toctree::
    :maxdepth: 2
