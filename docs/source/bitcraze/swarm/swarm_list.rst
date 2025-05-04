@@ -1,4 +1,4 @@
-Crazyswarm 简介
+Crazyswarm 1&2
 ===============
 
 Crazyswarm 是一个功能强大的多无人机编队控制系统，最初由南加州大学 (USC) 和加州理工学院 (Caltech) 开发，专为控制大量 Crazyflie 微型无人机而设计，广泛应用于研究、教学和演示领域。
