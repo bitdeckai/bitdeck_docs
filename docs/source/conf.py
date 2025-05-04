@@ -42,6 +42,8 @@ html_theme_options = {
     'titles_only': False,
 }
 
+html_show_sourcelink = False  # 禁用查看源码链接
+
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
 
