@@ -38,6 +38,10 @@ Crazyswarm 是一个功能强大的多无人机编队控制系统，最初由南
 GitHub 仓库：  
 `https://github.com/USC-ACTLab/crazyswarm`
 
+   crazyswarm1：
+   https://crazyswarm.readthedocs.io/en/latest/
+   crazyswarm2：
+   https://imrclab.github.io/crazyswarm2/installation.html
 
 视频集锦
 --------
