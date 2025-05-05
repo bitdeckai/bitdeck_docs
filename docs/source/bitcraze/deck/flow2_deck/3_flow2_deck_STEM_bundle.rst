@@ -77,7 +77,7 @@ Ubuntu 安装
     echo 'SUBSYSTEM=="usb", ATTRS{idVendor}=="1915", ATTRS{idProduct}=="7777", MODE="0664", GROUP="plugdev"' | sudo tee /etc/udev/rules.d/99-crazyradio.rules
 
 运行你的第一个飞行脚本
----------------------
+--------------------------
 
 现在，当所有设置和安装完成之后，启动 Python 编辑器 IDLE3。选择文件->新建并将下面的脚本复制/粘贴到新脚本中。使用合适的名称保存脚本。
 

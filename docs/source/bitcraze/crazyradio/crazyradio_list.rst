@@ -100,9 +100,12 @@ Ubuntu 驱动安装
    sudo udevadm control --reload-rules
    sudo udevadm trigger
 
-.. totree::
+crazyradio
+----------------
+
+.. toctree::
    :maxdepth: 2
    :caption: Crazyradio PA/2.0
 
-   crazyradioPA/0_crazyradioPA_deck_introduction
-   crazyradio2.0/0_crazyradio2.0_deck_introduction
+   crazyradioPA/0_crazyradioPA_introduction
+   crazyradio2.0/0_crazyradio20_introduction

@@ -36,11 +36,11 @@ Deck 是为了扩展Crazyflie之外的更多功能而设计的。
      - 便于安装动作捕捉标记的扩展板。
    * - Active marker deck
      - 配备主动红外 LED 的动作捕捉标记扩展板。
-   * - `Loco Positioning deck <./loco_deck/0_loco_deck_introduction.rst>`__
-     - 用于 Loco 定位系统的扩展板。
-   * - `Multi-ranger deck <./Multi-ranger_deck/0_multi-ranger_deck_introduction.rst>`__
+   * - `Loco Positioning deck <./loco_deck/0_loco_deck_introduction>`__
+     - 用于 Loco UWB定位系统的扩展板。
+   * - `Multi-ranger deck <./Multi-ranger_deck/0_multi-ranger_deck_introduction>`__
      - 提供多方向障碍物检测的扩展板。
-   * - `Flow deck V2 <./flow2_deck/0_flow2_deck_introduction.rst>`__
+   * - `Flow deck V2 <./flow2_deck/0_flow2_deck_introduction>`__
      - 提供光流和高度检测的扩展板。
    * - AI deck
      - 集成 AI 功能的扩展板，适用于边缘计算任务。
@@ -519,11 +519,12 @@ Deck 是为了扩展Crazyflie之外的更多功能而设计的。
 
 注意：此矩阵适用于未修改的卡座和标准固件。某些卡座可以修改为使用扩展端口上的其他引脚，从而与标记为不兼容的卡座兼容。通常物理上相互阻塞的卡座也被标记为不兼容。
 
-
-
 .. figure:: ../../_static/images/deck_compatible.jpg
    :align: center
    :figclass: align-center
+
+Deck
+----------
 
 .. toctree::
    :maxdepth: 2
