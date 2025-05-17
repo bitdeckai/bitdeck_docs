@@ -70,7 +70,9 @@ Android系统下安装
 
 您也可以从以下链接下载 crazyflie-android-client 的安装包：
 
-`下载 crazyflie-android-client-release_v0.7.4.apk 程序 <../../_static/tools/android/crazyflie-android-client-release_v0.7.4.apk>`_
+`crazyflie-android-client-release_v0.7.4.apk <../../_static/tools/android/crazyflie-android-client-release_v0.7.4.apk>`_
+
+`crazyflie-android-client-debug_20250517.apk 支持连接BLE名称 <../../_static/tools/android/crazyflie-android-client-debug_20250517.apk>`_
 
 部分手机会有问题，实测可用手机如下：
 
