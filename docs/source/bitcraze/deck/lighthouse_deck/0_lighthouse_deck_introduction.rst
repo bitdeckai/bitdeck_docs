@@ -72,6 +72,18 @@ V1 和 V2
 
 房间内必须安装两个或更多的灯塔基站。
 
+视频展示
+--------
+
+.. raw:: html
+
+   <div style="text-align: center">
+      <video width="100%" height="auto" controls autoplay muted loop>
+         <source src="../../../_static/videos/lighthouse_deck/crazyflie2.1_lighthouse_deck_V2_basestation.mp4" type="video/mp4">
+         Your browser does not support the video tag.
+      </video>
+   </div>
+
 资料下载
 --------
 

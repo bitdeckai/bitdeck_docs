@@ -80,6 +80,23 @@ IMU 规格
 
 - `原理图 <../../../_static/products/crazyflie-2_1_brushless/electronics/cf2.1_bl_schematics_Rev.G.pdf>`_
 
+视频展示 --- Crazyflie2.1 Brushless与PC client连接
+---------------------------------------------------
+
+.. raw:: html
+
+   <div style="text-align: center">
+      <video width="100%" height="auto" controls autoplay muted loop>
+         <source src="../../../_static/videos/crazyflie2.1_brushless/crazyflie2.1_brushleess_pc_client_connect_control.mp4" type="video/mp4">
+         Your browser does not support the video tag.
+      </video>
+   </div>
+
+视频展示 --- 官方无刷电机KV10000，光流悬停
+-------------------------------------------
+
+TODO
+
 视频展示 --- 国产无刷电机KV19500，光流悬停
 -------------------------------------------
 .. raw:: html
