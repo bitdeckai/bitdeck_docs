@@ -6,6 +6,10 @@ Crazyflie PC 客户端支持刷写和控制 Crazyflie。它实现了用户界面
 Windows系统下安装
 -----------------
 
+参考：
+
+   https://www.bitcraze.io/documentation/repository/crazyflie-clients-python/master/installation/install/
+
 python安装
 ^^^^^^^^^^
 
@@ -68,12 +72,17 @@ Android系统下安装
 
 `下载 crazyflie-android-client-release_v0.7.4.apk 程序 <../../_static/tools/android/crazyflie-android-client-release_v0.7.4.apk>`_
 
+部分手机会有问题，实测可用手机如下：
+
+- 红米Readmi Note 13
+
 iPhone系统下安装
 -----------------
 
-在AppStore搜索crazyflie，可以看到
+在AppStore搜索crazyflie，可以看到绿色飞行器图标
 
+实测可用手机如下：
 
-参考：
+- iPhone 8 plus
+- iPhone 12
 
-   https://www.bitcraze.io/documentation/repository/crazyflie-clients-python/master/installation/install/
