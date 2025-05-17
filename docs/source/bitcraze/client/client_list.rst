@@ -72,7 +72,7 @@ Android系统下安装
 
 `crazyflie-android-client-release_v0.7.4.apk <../../_static/tools/android/crazyflie-android-client-release_v0.7.4.apk>`_
 
-`crazyflie-android-client-debug_20250517.apk 支持连接BLE名称 <../../_static/tools/android/crazyflie-android-client-debug_20250517.apk>`_
+`crazyflie-android-client-debug_20250517.apk 支持连接带地址的BLE名称 <../../_static/tools/android/crazyflie-android-client-debug_20250517.apk>`_
 
 部分手机会有问题，实测可用手机如下：
 
