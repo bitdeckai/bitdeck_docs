@@ -43,14 +43,36 @@ crazyflie client安装
    pip config set global.index-url https://mirrors.aliyun.com/pypi/simple
    pip config set install.trusted-host mirrors.aliyun.com
 
+如果您使用的是 Python 3.13，则需要安装Visual Studio。在安装过程中，您只需在 Visual Studio 安装程序中选择使用 C++ 的桌面开发工作负载。
+
+https://visualstudio.microsoft.com/zh-hans/downloads/
+
 Linux系统下安装
 -----------------
 参考：
 
-   https://www.bitcraze.io/documentation/repository/crazyflie-clients-python/master/installation/install/
+   https://www.bitcraze.io/documentation/repository/crazyflie-clients-python/master/installation/install/#linux
 
 Mac系统下安装
 -----------------
+参考：
+
+   https://www.bitcraze.io/documentation/repository/crazyflie-clients-python/master/installation/install/#macos
+
+Android系统下安装
+-----------------
+
+从bitcraze github官方网站下载：`crazyflie-android-client <https://github.com/bitcraze/crazyflie-android-client/releases>`_。
+
+您也可以从以下链接下载 crazyflie-android-client 的安装包：
+
+`下载 crazyflie-android-client-release_v0.7.4.apk 程序 <../../_static/tools/android/crazyflie-android-client-release_v0.7.4.apk>`_
+
+iPhone系统下安装
+-----------------
+
+在AppStore搜索crazyflie，可以看到
+
 
 参考：
 
