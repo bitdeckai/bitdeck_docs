@@ -44,6 +44,80 @@ GitHub 仓库：
    crazyswarm2：
    https://imrclab.github.io/crazyswarm2/installation.html
 
+飞行器地址修改
+----------------
+ 
+从默认的 0xE7E7E7E7 修改成 0xE7E7E701 
+
+
+(1) 用默认地址0xE7E7E7E7连接飞行器
+
+.. figure:: ../../_static/videos/swarm/cfclient_config_address/1.jpg
+   :align: center
+   :figclass: align-center
+
+(2) Configure 2.X
+
+.. figure:: ../../_static/videos/swarm/cfclient_config_address/2.jpg
+   :align: center
+   :figclass: align-center
+
+(3) 修改地址
+
+.. figure:: ../../_static/videos/swarm/cfclient_config_address/3.jpg
+   :align: center
+   :figclass: align-center
+
+(4) 用新地址0xE7E7E701连接飞行器
+
+.. figure:: ../../_static/videos/swarm/cfclient_config_address/4.jpg
+   :align: center
+   :figclass: align-center
+
+(5) 修改过地址的飞行器务必在外部做好标记，未来需要再修改回来
+
+.. figure:: ../../_static/videos/swarm/cfclient_config_address/5.jpg
+   :align: center
+   :figclass: align-center
+
+5个飞行器悬停
+--------------
+
+(1) 安装cfclient
+(2) 插上Crazyradio PA或者Crazyradio 2.0
+(3) 修改5个飞行器地址
+(4) 下载程序 
+
+- `crazyflie-lib-python-master_20250218 <../../_static/videos/swarm/5crazyflie_flowdeck_hover/crazyflie-lib-python-master_20250218>`_
+
+.. figure:: ../../_static/videos/swarm/5crazyflie_flowdeck_hover/py_path.jpg
+   :align: center
+   :figclass: align-center
+
+(4) 集群飞行脚本，hl-commander-swarm_only_flowdeckv2_hover.py，如下
+
+- `hl-commander-swarm_only_flowdeckv2_hover.py <../../_static/videos/swarm/5crazyflie_flowdeck_hover/hl-commander-swarm_only_flowdeckv2_hover.py>`_
+
+(5) 飞行效果
+
+.. raw:: html
+
+   <div style="text-align: center">
+      <video width="100%" height="auto" controls autoplay muted loop>
+         <source src="../../_static/videos/swarm/5crazyflie_flowdeck_hover/hl-commander-swarm_only_flowdeckv2_hover_1.mp4" type="video/mp4">
+         Your browser does not support the video tag.
+      </video>
+   </div>
+
+.. raw:: html
+
+   <div style="text-align: center">
+      <video width="100%" height="auto" controls autoplay muted loop>
+         <source src="../../_static/videos/swarm/5crazyflie_flowdeck_hover/hl-commander-swarm_only_flowdeckv2_hover_2.mp4" type="video/mp4">
+         Your browser does not support the video tag.
+      </video>
+   </div>
+
 视频集锦
 --------
 
