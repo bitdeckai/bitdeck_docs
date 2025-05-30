@@ -140,7 +140,7 @@ Crazyflie 2.1+ 是一个开源项目，其源代码和硬件原理图均已记�
 ----------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 6
    :caption: Crazyflie User Manual
 
    1_crazyflie2.1_assembly

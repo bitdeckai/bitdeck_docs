@@ -2,12 +2,16 @@ Multi-ranger deck
 ====================
 
 .. contents:: 目录
-    :depth: 2
+    :depth: 4
     :local:
 
 概述
 ----
 Multi-ranger Deck 是专为 **Crazyflie 2.X 系列微型无人机** 设计的扩展模块，用于环境感知和避障。通过多方向激光测距传感器，支持无人机实现自主导航与避障功能。
+
+.. figure:: ../../../_static/products/multi-ranger-deck/datasheet/multi-ranger_deck_1200px-1_1024x1024.jpg
+   :align: center
+   :figclass: align-center
 
 核心功能
 --------
@@ -89,8 +93,8 @@ GitHub 官方示例：`multi-ranger <https://github.com/bitcraze/crazyflie-lib-p
 ----------------
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Loco User Manual
+   :maxdepth: 6
+   :caption: Multi-ranger deck 用户手册
 
    1_multi-ranger_deck_assembly
    2_multi-ranger_deck_getting_started

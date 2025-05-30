@@ -104,7 +104,7 @@ crazyradio
 ----------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 6
    :caption: Crazyradio PA/2.0
 
    crazyradioPA/0_crazyradioPA_introduction

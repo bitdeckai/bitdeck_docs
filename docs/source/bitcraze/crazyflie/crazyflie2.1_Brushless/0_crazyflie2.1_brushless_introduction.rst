@@ -184,7 +184,7 @@ KV 值对性能的影响
 ----------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 6
    :caption: Crazyflie User Manual
 
    1_crazyflie2.1_brushless_assembly

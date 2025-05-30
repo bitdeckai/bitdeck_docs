@@ -2,13 +2,17 @@ Flow2 deck
 ===============
 
 .. contents:: 目录
-    :depth: 2
+    :depth: 4
     :local:
 
 简介
 -----
 
 Flow deck v2 使 Crazyflie 2.x 能够感知其在任何方向上的移动。VL53L1x ToF 传感器可高精度测量与地面的距离，而 PMW3901 光流传感器则可测量相对于地面的运动。这创造了一个可飞行的 3D 机器人，它可以通过预先编程实现在任何方向上的飞行距离，或者作为初学者的辅助工具，创建一个非常稳定的飞行平台。
+
+.. figure:: ../../../_static/products/flow-deck-2/datasheet/flow_deck_v2_585px.jpg
+   :align: center
+   :figclass: align-center
 
 特征
 ----
@@ -97,8 +101,8 @@ PMW3901 是一款基于光流（Optical Flow）原理的运动检测传感器，
 ----------------
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Loco User Manual
+   :maxdepth: 6
+   :caption: Flow2 deck 用户手册
 
    1_flow2_deck_assembly
    2_flow2_deck_getting_started

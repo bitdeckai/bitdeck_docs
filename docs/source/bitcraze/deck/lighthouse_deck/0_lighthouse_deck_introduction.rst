@@ -2,7 +2,7 @@ Lighthouse deck
 ===============
 
 .. contents:: 目录
-    :depth: 2
+    :depth: 4
     :local:
     
 灯塔定位系统是一种基于光学的定位系统，可以让物体在室内实现高精度自主定位。该系统能够实现接近动作捕捉系统的跟踪精度，但成本要低得多，而且具有一个重要优势：位置信息是在被跟踪设备上直接获取的，而不是在基础设施中获取。对于像 Crazyflie 这样的飞行机器人来说，这意味着位置信息可以直接用于自主飞行，无需通过无线电传输来获取低延迟的可靠位置数据。
@@ -12,6 +12,10 @@ Lighthouse deck
    :alt: lighthouse 定位系统
    :figclass: align-center
 
+
+.. figure:: ../../../_static/products/lighthouse-deck/datasheet/lighthouse_lighthouse_deck.jpg
+   :align: center
+   :figclass: align-center
 
 Lighthouse 基站
 ----------------
@@ -51,9 +55,7 @@ V1 和 V2
 为了能够测量位置和方向，Crazyflie 需要知道灯塔基站在房间中的位置和方向，这被称为系统几何结构。几何结构可以由 Crazyflie 客户端自动获取并存储在 Crazyflie 中。它也可以保存到文件中，这样就可以将相同的几何信息写入多个 Crazyflie，从而实现在同一个跟踪空间中飞行多个 Crazyflie 集群。
 
 .. figure:: ../../../_static/images/documentation/overview/bs-geometry.png
-
    :align: center
-   :alt: lighthouse
    :figclass: align-center
 
 系统性能
@@ -95,8 +97,8 @@ V1 和 V2
 ----------------
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Lighthouse User Manual
+   :maxdepth: 6
+   :caption: Lighthouse deck 用户手册
 
    1_lighthouse_deck_assembly
    2_lighthouse_deck_getting_started

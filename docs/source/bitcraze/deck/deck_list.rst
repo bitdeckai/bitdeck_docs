@@ -30,17 +30,17 @@ Deck 是为了扩展Crazyflie之外的更多功能而设计的。
      - 支持 Micro SD 卡的扩展板，可用于数据存储。
    * - Z-ranger deck V2
      - 提供精确高度控制的扩展板。
-   * - Lighthouse positioning deck
+   * - `Lighthouse positioning deck <./lighthouse_deck/0_lighthouse_deck_introduction.html>`__
      - 支持 SteamVR Lighthouse 定位系统的扩展板。
    * - Motion capture marker deck
      - 便于安装动作捕捉标记的扩展板。
    * - Active marker deck
      - 配备主动红外 LED 的动作捕捉标记扩展板。
-   * - `Loco Positioning deck <./loco_deck/0_loco_deck_introduction>`__
+   * - `Loco Positioning deck <./loco_deck/0_loco_deck_introduction.html>`__
      - 用于 Loco UWB定位系统的扩展板。
-   * - `Multi-ranger deck <./Multi-ranger_deck/0_multi-ranger_deck_introduction>`__
+   * - `Multi-ranger deck <./Multi-ranger_deck/0_multi-ranger_deck_introduction.html>`__
      - 提供多方向障碍物检测的扩展板。
-   * - `Flow deck V2 <./flow2_deck/0_flow2_deck_introduction>`__
+   * - `Flow deck V2 <./flow2_deck/0_flow2_deck_introduction.html>`__
      - 提供光流和高度检测的扩展板。
    * - AI deck
      - 集成 AI 功能的扩展板，适用于边缘计算任务。
@@ -527,10 +527,11 @@ Deck
 ----------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 6
    :caption: Crazyflie All Deck
 
    lighthouse_deck/0_lighthouse_deck_introduction
    loco_deck/0_loco_deck_introduction
    flow2_deck/0_flow2_deck_introduction
    Multi-ranger_deck/0_multi-ranger_deck_introduction
+   microSD_deck/0_microSD_deck_introduction

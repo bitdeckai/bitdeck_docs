@@ -2,12 +2,20 @@ Loco deck
 ===============
 
 .. contents:: 目录
-    :depth: 2
+    :depth: 4
     :local:
     
 Loco 定位系统是一种基于超宽带无线电的本地定位系统，用于查找空间中物体的绝对 3D 位置。它在许多方面类似于微型 GPS 系统。
 
 .. figure:: ../../../_static/images/documentation/overview/lpssystem.png
+   :align: center
+   :figclass: align-center
+
+.. figure:: ../../../_static/products/loco-deck/datasheet/Loco-deck-400px-1_1024x1024.jpeg
+   :align: center
+   :figclass: align-center
+
+.. figure:: ../../../_static/products/loco-node/datasheet/Loco-node-400px-1_1024x1024.jpeg
    :align: center
    :figclass: align-center
 
@@ -71,8 +79,8 @@ Loco定位节点是 Loco 定位系统中的多功能节点，它可以充当锚�
 ----------------
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Loco User Manual
+   :maxdepth: 6
+   :caption: Loco 用户手册
 
    1_loco_deck_assembly
    2_loco_deck_getting_started

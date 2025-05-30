@@ -81,7 +81,7 @@ IMU 规格
 ----------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 6
    :caption: Crazyflie User Manual
 
    1_crazyflie_bolt_1.1_assembly
