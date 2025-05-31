@@ -76,11 +76,11 @@ GitHub 官方示例：`multi-ranger <https://github.com/bitcraze/crazyflie-lib-p
 资料下载
 --------
 
-- `数据手册 <../../../_static/products/multi-ranger-deck/datasheet/multi_ranger_deck-datasheet.pdf>`_
+- `multi_ranger_deck 数据手册 <../../../_static/products/multi-ranger-deck/datasheet/multi_ranger_deck-datasheet.pdf>`_
 
-- `原理图(主板) <../../../_static/products/multi-ranger-deck/electronics/multi-ranger-reve.pdf>`_
+- `multi_ranger_deck 原理图(主板) <../../../_static/products/multi-ranger-deck/electronics/multi-ranger-reve.pdf>`_
 
-- `原理图(子板) <../../../_static/products/multi-ranger-deck/electronics/multi-ranger-daughter-board-reve.pdf>`_
+- `multi_ranger_deck 原理图(子板) <../../../_static/products/multi-ranger-deck/electronics/multi-ranger-daughter-board-reve.pdf>`_
 
 典型应用
 --------

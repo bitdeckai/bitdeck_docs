@@ -14,11 +14,11 @@ Deck 是为了扩展Crazyflie之外的更多功能而设计的。
 
    * - 扩展板名称
      - 描述
-   * - LED-ring deck
+   * - `LED-ring deck <./led_ring_deck/0_led_ring_deck_introduction.html>`__
      - 具有 12 个可编程 RGB LED 和两个前置“车头灯”的视觉反馈扩展板。
    * - Buzzer deck
      - 提供蜂鸣器功能，可用于声音反馈。
-   * - Qi 1.2 wireless charging deck
+   * - `Qi 1.2 wireless charging deck <./qi_deck/0_qi_deck_introduction.html>`__
      - 支持 Qi 1.2 标准的无线充电扩展板。
    * - Prototyping deck
      - 用于自定义电路开发的原型扩展板。
@@ -26,7 +26,7 @@ Deck 是为了扩展Crazyflie之外的更多功能而设计的。
      - 提供额外引脚访问的扩展板，方便连接外部设备。
    * - BigQuad deck
      - 用于构建更大四旋翼飞行器的扩展板。
-   * - Micro SD card deck
+   * - `Micro SD card deck <./microSD_deck/0_microSD_deck_introduction.html>`__
      - 支持 Micro SD 卡的扩展板，可用于数据存储。
    * - Z-ranger deck V2
      - 提供精确高度控制的扩展板。
@@ -535,3 +535,5 @@ Deck
    flow2_deck/0_flow2_deck_introduction
    Multi-ranger_deck/0_multi-ranger_deck_introduction
    microSD_deck/0_microSD_deck_introduction
+   led_ring_deck/0_led_ring_deck_introduction
+   qi_deck/0_qi_deck_introduction

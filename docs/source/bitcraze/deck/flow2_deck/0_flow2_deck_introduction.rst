@@ -93,9 +93,9 @@ PMW3901 是一款基于光流（Optical Flow）原理的运动检测传感器，
 资料下载
 --------
 
-- `数据手册 <../../../_static/products/flow-deck-2/datasheet/flow_deck_2-datasheet.pdf>`_
+- `flow2_deck 数据手册 <../../../_static/products/flow-deck-2/datasheet/flow_deck_2-datasheet.pdf>`_
 
-- `原理图 <../../../_static/products/flow-deck-2/electronics/flow-deck-v2-reva.pdf>`_
+- `flow2_deck 原理图 <../../../_static/products/flow-deck-2/electronics/flow-deck-v2-reva.pdf>`_
 
 使用手册
 ----------------

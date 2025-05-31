@@ -80,6 +80,15 @@ GitHub 仓库：
    :align: center
    :figclass: align-center
 
+飞行器信道修改
+----------------
+
+如果经常出现丢包问题，可以尝试切换信道，范围是[0~125]
+
+.. figure:: ../../_static/videos/swarm/cfclient_config_address/6.jpg
+   :align: center
+   :figclass: align-center
+
 5个飞行器悬停
 --------------
 

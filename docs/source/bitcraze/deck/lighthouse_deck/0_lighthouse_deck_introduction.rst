@@ -89,8 +89,8 @@ V1 和 V2
 资料下载
 --------
 
-- `数据手册 <../../../_static/products/lighthouse-deck/datasheet/lighthouse_deck-datasheet.pdf>`_
-- `原理图 <../../../_static/products/lighthouse-deck/electronics/lighthouse_deck-revd.pdf>`_
+- `lighthouse_deck 数据手册 <../../../_static/products/lighthouse-deck/datasheet/lighthouse_deck-datasheet.pdf>`_
+- `lighthouse_deck 原理图 <../../../_static/products/lighthouse-deck/electronics/lighthouse_deck-revd.pdf>`_
 
 
 使用手册
