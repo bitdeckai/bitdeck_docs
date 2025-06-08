@@ -86,3 +86,4 @@ IMU 规格
 
    1_crazyflie_bolt_1.1_assembly
    2_crazyflie_bolt_1.1_getting_started
+   3_crazyflie_bolt_1.1_QAV250
