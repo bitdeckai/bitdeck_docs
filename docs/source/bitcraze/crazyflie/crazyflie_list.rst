@@ -4,6 +4,8 @@ Crazyflie 2.1/Bolt/Brushless
 固件升级
 ---------
 
+参考 https://wiki.bitcraze.io/doc:crazyflie:client:cfloader:index
+
 可以使用cfloader脚本 从命令行引导加载 Crazyflie。
 
 要进入 Crazyflie 2.X 的引导加载程序，请关闭平台电源，然后按住电源按钮至少 1.5 秒（但不超过 5 秒）重新启动平台。
@@ -28,8 +30,6 @@ Crazyflie 2.1/Bolt/Brushless
 
 
 如果烧写操作失败或固件存在 bug，可能无法进行热启动。在这种情况下，请手动启动引导程序，并使用以下命令暂时禁用热启动：
-
-参考 https://wiki.bitcraze.io/doc:crazyflie:client:cfloader:index
 
 .. code-block:: c
 
