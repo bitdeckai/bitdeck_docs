@@ -14,6 +14,9 @@ Crazyflie Bolt 1.1 只是一个主控板，做成飞控还需要其他很多配�
 - 格氏ACE 格式3S 11.1V 3s 7.4v 820mAh，1个
 - 螺旋桨，5寸
 
+.. figure:: ../../../_static/videos/crazyflie_bolt_1.1/crazyflie_bolt_1.1_QAV250_1.jpg
+   :align: center
+   :figclass: align-center
 
 .. raw:: html
 
