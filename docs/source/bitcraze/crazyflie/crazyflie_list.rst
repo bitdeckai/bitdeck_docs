@@ -113,20 +113,14 @@ STM32 MCU 刷写新固件
    Flashing 2 of 2 to nrf51 (fw): 25151 bytes (25 pages) .1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1
    Reset in firmware mode ...
 
+Crazyflie
+-----------
+
 .. toctree::
    :maxdepth: 6
-   :caption: Crazyflie2.1
+   :caption: Crazyflie
 
    crazyflie2.1/0_crazyflie2.1_introduction
-
-.. toctree::
-   :maxdepth: 6
-   :caption: Crazyflie2.1 Brushless
-
    crazyflie2.1_Brushless/0_crazyflie2.1_brushless_introduction
-
-.. toctree::
-   :maxdepth: 6
-   :caption: Crazyflie Bolt 1.1
-
    crazyflie_bolt_1.1/0_crazyflie_bolt_1.1_introduction
+
