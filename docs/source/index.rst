@@ -46,7 +46,7 @@
                "985": "red",
                "211": "blue",
                "world": "green",
-               "other": "black"
+               "other": "violet"
            }[type] || "blue";
 
            return L.icon({
