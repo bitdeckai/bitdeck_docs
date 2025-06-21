@@ -165,6 +165,11 @@ Crazyradio PA举例，插入电脑之后，默认会在Windows的设备管理器
    :alt: crazyflie-overview
    :figclass: align-center
 
+.. figure:: ../../../_static/develop/crazyflie_firmware_develop/0_add_appMain/8_hardware_connect_3.png
+   :align: center
+   :alt: crazyflie-overview
+   :figclass: align-center
+
 .. figure:: ../../../_static/develop/crazyflie_firmware_develop/0_add_appMain/9_console_display.png
    :align: center
    :alt: crazyflie-overview
