@@ -32,10 +32,72 @@
 
 - `Makefile <../../../_static/develop/crazyflie_firmware_develop/0_add_appMain/Makefile>`_
 
+注意代码目录:
+
+.. code-block:: bash
+
+   /home/bitcraze/projects/crazyflie-firmware/examples/app_uart/
+
 .. figure:: ../../../_static/develop/crazyflie_firmware_develop/0_add_appMain/0_examples_app_uart.png
    :align: center
    :alt: crazyflie-overview
    :figclass: align-center
+
+ app_uart.rar压缩包中的 uart.c 获取位置数据，通过串口2发射:
+
+.. code-block:: c
+
+   #include <string.h>
+   #include <stdint.h>
+   #include <stdbool.h>
+
+   #include "app.h"
+
+   #include "FreeRTOS.h"
+   #include "task.h"
+
+   #define DEBUG_MODULE "HELLOWORLD"
+   #include "debug.h"
+   #include "uart2.h"
+   #include "log.h"
+
+   void appMain() {
+      DEBUG_PRINT("Waiting for activation ...\n");
+      //uint8_t it = 0;
+      vTaskDelay(M2T(2000));
+      uart2Init(9600);
+      uint8_t start_byte = 0xAA;
+      uint8_t end_byte = 0x55;
+      uint8_t data[3 * sizeof(float) + 2]; // Extra space for start and end bytes
+      float array[3] = {0.0, 0.0, 0.0};
+
+      logVarId_t idx = logGetVarId("stateEstimate", "x");
+      logVarId_t idy = logGetVarId("stateEstimate", "y");
+      logVarId_t idz = logGetVarId("stateEstimate", "z");
+
+
+      while(1) {
+         vTaskDelay(M2T(100));
+
+         array[0]= logGetFloat(idx);
+         array[1]= logGetFloat(idy);
+         array[2]= logGetFloat(idz);
+
+
+         data[0] = start_byte;
+         for (int i = 0; i < 3; i++) {
+            memcpy(&data[i * sizeof(float) + 1], &array[i], sizeof(float)); // Offset by 1 for start byte
+         }
+         data[sizeof(data) - 1] = end_byte;
+         for (int i = 0; i < sizeof(data); i++) {
+            uart2Putchar(data[i]);
+         }
+
+
+         //DEBUG_PRINT("%d\n",it);
+         //it++;
+      }
+   }
 
 (2) 修改 Makefile 文件，注意别修改错文件了
 
