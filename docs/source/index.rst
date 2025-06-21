@@ -150,7 +150,9 @@
 .. toctree::
    :maxdepth: 6
 
-   bitcraze/client/client_list
+   bitcraze/client/pc_client
+   bitcraze/client/android
+   bitcraze/client/iPhone
    bitcraze/crazyflie/crazyflie_list
    bitcraze/crazyradio/crazyradio_list
    bitcraze/deck/deck_list

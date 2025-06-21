@@ -123,4 +123,5 @@ Crazyflie
    crazyflie2.1/0_crazyflie2.1_introduction
    crazyflie2.1_Brushless/0_crazyflie2.1_brushless_introduction
    crazyflie_bolt_1.1/0_crazyflie_bolt_1.1_introduction
+   crazyflie_firmware_develop/0_crazyflie_firmware_add_appMain
 

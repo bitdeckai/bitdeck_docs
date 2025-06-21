@@ -1,5 +1,5 @@
-appMain调用打印位置数据
-============================
+develop appMain调用打印位置数据
+================================
 
 .. contents:: 目录
     :depth: 6
@@ -24,12 +24,20 @@ appMain调用打印位置数据
 
 0. 增加appMain文件和修改Makefile文件：
 
-// TODO，重新贴图片
+(1) 增加app_uart的代码
+
+- `app_uart.rar <../../../_static/develop/crazyflie_firmware_develop/0_add_appMain/app_uart.rar>`_
+
+- `Makefile <../../../_static/develop/crazyflie_firmware_develop/0_add_appMain/Makefile>`_
 
 .. figure:: ../../../_static/develop/crazyflie_firmware_develop/0_add_appMain/0_examples_app_uart.png
    :align: center
    :alt: crazyflie-overview
    :figclass: align-center
+
+(2) 修改 Makefile 文件，注意别修改错文件了
+
+   该文件目录是: /home/bitcraze/projects/crazyflie-firmware/Makefile
 
 .. figure:: ../../../_static/develop/crazyflie_firmware_develop/0_add_appMain/0_make_config.png
    :align: center
@@ -38,9 +46,9 @@ appMain调用打印位置数据
 
 1. 如果是第一次需要提供配置文件，需要根据飞行器型号加载配置文件：
 
- - crazyflie2.1 --> cf2_defconfig
- - crazyflie bolt 1.1 --> bolt_defconfig
- - crazyflie2.1 brushless --> cf21bl_defconfig
+ - Crazyflie2.1 --> cf2_defconfig
+ - Crazyflie bolt 1.1 --> bolt_defconfig
+ - Crazyflie2.1 brushless --> cf21bl_defconfig
 
 .. code-block:: bash
 
@@ -48,7 +56,12 @@ appMain调用打印位置数据
    make bolt_defconfig
    make cf21bl_defconfig
 
-// TODO，重新贴图片
+.. figure:: ../../../_static/develop/crazyflie_firmware_develop/0_add_appMain/2_make_config_combined.jpg
+   :align: center
+   :alt: crazyflie-overview
+   :figclass: align-center
+
+因为Crazyflie bolt 1.1板更适合装载到小车上，提供位置数据，所以以此举例:
 
 .. figure:: ../../../_static/develop/crazyflie_firmware_develop/0_add_appMain/2_make_config.png
    :align: center
@@ -98,11 +111,16 @@ make如果没有报错，程序应该到此更改结束了。
 
 Crazyradio PA举例，插入电脑之后，默认会在Windows的设备管理器中，首先需要让Crazyradio PA接入到VMware虚拟机中，使用lsusb查看是否接入
 
+.. figure:: ../../../_static/develop/crazyflie_firmware_develop/0_add_appMain/6_crazyradiopa_connect_vmware.png
+   :align: center
+   :alt: crazyflie-overview
+   :figclass: align-center
+
+进入终端输入lsusb查看是否被识别
+
 .. code-block:: bash
 
    lsusb
-
-//TODO，需要一张接入VMware中USB的截图
 
 .. figure:: ../../../_static/develop/crazyflie_firmware_develop/0_add_appMain/6_crazyradio_lsusb.png
    :align: center
@@ -115,7 +133,14 @@ Crazyradio PA举例，插入电脑之后，默认会在Windows的设备管理器
   
    按键按下一次断电，然后长按直到M3蓝灯闪烁，松开按键，另外一个蓝灯M1也开始闪烁，此时两个蓝灯都在闪烁，表示进入了Bootloader状态
 
-//TODO需要一张接入Bootloader模式的动态图
+.. raw:: html
+
+   <div style="text-align: center">
+      <video width="100%" height="auto" controls autoplay muted loop>
+         <source src="../../../_static/develop/crazyflie_firmware_develop/0_add_appMain/enter_bootloader.mp4" type="video/mp4">
+         Your browser does not support the video tag.
+      </video>
+   </div>
 
 6. 升级
 
@@ -130,7 +155,12 @@ Crazyradio PA举例，插入电脑之后，默认会在Windows的设备管理器
 
 7. 硬件连接 --- 查看打印位置信息
 
-.. figure:: ../../../_static/develop/crazyflie_firmware_develop/0_add_appMain/8_hardware_connect.png
+.. figure:: ../../../_static/develop/crazyflie_firmware_develop/0_add_appMain/8_hardware_connect_1.png
+   :align: center
+   :alt: crazyflie-overview
+   :figclass: align-center
+
+.. figure:: ../../../_static/develop/crazyflie_firmware_develop/0_add_appMain/8_hardware_connect_2.png
    :align: center
    :alt: crazyflie-overview
    :figclass: align-center
