@@ -1,18 +1,20 @@
-develop appMain调用打印位置数据
+1_appMain调用打印位置数据
 ================================
 
 .. contents:: 目录
     :depth: 6
     :local:
     
-用户使用过程中，用户如何添加自己的代码，另外常用的问题是如何在飞行器上直接打印位置数据，针对这两个需求，这里合并到一起完成：
-
-(1) 用户可以使用appMain，实现自己的代码逻辑，系统开启appMain调用;
-(2) 开启连接器上的TX2和RX2，用于串口打印位置数据.
+用户使用过程中，经常遇到三个问题:
+ - 如何添加自己的代码 --- 使用appMain
+ - 如何在飞行器上直接打印位置数据 --- 使用串口2
+ - 代码修改完成之后如何升级 --- 使用make cload
 
    建议使用官方的虚拟机文件 BitcrazeVM_2023.10.ova，导入VMware中，强烈建议用VMware，因为VitrualBox经常会出问题，导致虚拟机挂掉无法打开
 
-进入crazyflie-firmware目录
+参考代码 `crazyflie-firmware <https://github.com/bitcraze/crazyflie-firmware>`__。
+
+使用VMware虚拟机导入BitcrazeVM_2023.10.ova之后，进入crazyflie-firmware目录:
 
 .. code-block:: bash
 
