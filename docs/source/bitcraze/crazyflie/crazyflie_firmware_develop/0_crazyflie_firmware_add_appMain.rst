@@ -38,12 +38,14 @@
 
    /home/bitcraze/projects/crazyflie-firmware/examples/app_uart/
 
+目录截图如下：
+
 .. figure:: ../../../_static/develop/crazyflie_firmware_develop/0_add_appMain/0_examples_app_uart.png
    :align: center
    :alt: crazyflie-overview
    :figclass: align-center
 
- app_uart.rar压缩包中的 uart.c 获取位置数据，通过串口2发射:
+app_uart.rar压缩包中的 uart.c 获取位置数据，通过串口2发射:
 
 .. code-block:: c
 
