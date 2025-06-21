@@ -6,11 +6,11 @@
     :local:
     
 用户使用过程中，经常遇到三个问题:
- - 如何添加自己的代码 --- 使用appMain
- - 如何在飞行器上直接打印位置数据 --- 使用串口2
- - 代码修改完成之后如何升级 --- 使用make cload
+ - 如何添加自己的代码【使用appMain】
+ - 如何在飞行器上直接打印位置数据【使用串口2】
+ - 代码修改完成之后如何升级【使用make cload】
 
-   建议使用官方的虚拟机文件 BitcrazeVM_2023.10.ova，导入VMware中，强烈建议用VMware，因为VitrualBox经常会出问题，导致虚拟机挂掉无法打开
+建议使用官方的虚拟机文件 BitcrazeVM_2023.10.ova，导入VMware中，强烈建议用VMware，因为VitrualBox经常会出问题，导致虚拟机挂掉无法打开
 
 参考代码 `crazyflie-firmware <https://github.com/bitcraze/crazyflie-firmware>`__。
 
