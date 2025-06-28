@@ -149,6 +149,7 @@
    :align: center
    :alt: 个人二维码
    :figclass: align-center
+   :scale: 50%
 
 .. toctree::
    :maxdepth: 6
