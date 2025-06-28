@@ -102,6 +102,9 @@
            {name: "江苏科技大学", coords: [32.0682, 119.0000], type: "other"},
            {name: "中国民航大学", coords: [39.1239, 117.2180], type: "other"},
            {name: "西安建筑科技大学", coords: [34.2460, 108.9816], type: "other"},
+           {name: "苏州农业职业技术学院", coords: [31.3240, 120.7150], type: "other"},
+           {name: "四川吉利学院", coords: [30.4925, 104.4229], type: "other"},
+           {name: "浙江理工大学科技与艺术学院", coords: [30.4925, 104.4229], type: "other"},
            {name: "湖州师范学院", coords: [30.8510, 120.1030], type: "other"}
        ];
 
