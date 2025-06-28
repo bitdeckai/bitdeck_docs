@@ -5,6 +5,14 @@ Crazyradio PA/Crazyradio 2.0 是Crazyflie2.x和上位机之间通信的无线设
 
 大多数使用 USB 通信的 Bitcraze 产品在 Windows 上使用 libusb 驱动程序。该驱动程序允许与 USB 设备进行通信，而无需开发自定义驱动程序。本页面将解释如何使用 Zadig 工具安装 libusb 驱动程序。
 
+.. figure:: ../../_static/images/crazyradio-pa/Radio-PA-585px.JPG
+   :align: center
+   :alt: crazyradio-pa
+
+.. figure:: ../../_static/images/crazyradio2-0/CR2.0-dongle-585px.jpg
+   :align: center
+   :alt: crazyradio2-0
+
 Windows 驱动安装
 ----------------
 

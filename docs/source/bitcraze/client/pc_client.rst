@@ -40,6 +40,14 @@ crazyflie client安装
 
    python -m cfclient.gui
 
+.. figure:: ../../_static/images/cfclient/windows_cfclient_cmd.jpg
+   :align: center
+   :alt: win-install
+
+.. figure:: ../../_static/images/cfclient/windows_cfclient_start.jpg
+   :align: center
+   :alt: win-install
+
 如果网速很差，可以更换镜像源
 
 .. code-block:: bash
