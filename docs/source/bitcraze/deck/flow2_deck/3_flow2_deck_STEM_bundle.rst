@@ -1,4 +1,4 @@
-Multi-ranger deck STEM
+Flow deck v2 STEM
 ===========================
 
 .. contents:: 目录
