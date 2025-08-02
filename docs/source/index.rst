@@ -157,6 +157,7 @@
    bitcraze/client/pc_client
    bitcraze/client/android
    bitcraze/client/iPhone
+   bitcraze/client/code_doc_link
    bitcraze/crazyradio/crazyradio_list
    bitcraze/crazyflie/crazyflie_list
    bitcraze/deck/deck_list
