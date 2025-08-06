@@ -119,6 +119,9 @@
             {name: "香港城市大学", coords: [22.3372, 114.1731], type: "world"},
             {name: "香港理工大学", coords: [22.3046, 114.1790], type: "world"},
 
+            {name: "澳大利亚国立大学", coords: [-35.2776, 149.1188], type: "world"},
+            {name: "马来亚大学", coords: [3.1200, 101.6540], type: "world"},
+            
             // 其他高校
             {name: "东北石油大学", coords: [46.6291, 125.0201], type: "other"},
             {name: "江苏科技大学", coords: [32.0682, 119.0000], type: "other"},
