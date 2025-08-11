@@ -13,10 +13,23 @@ Crazyflie Bolt 1.1 只是一个主控板，做成飞控还需要其他很多配�
 - 穿越机 电机 2204-2300KV skywalker 航模 无刷 马达 四轴穿越机，2204 2300KV电机 4S，4个(2-4S供电)
 - 格氏ACE 格式3S 11.1V 3s 7.4v 820mAh，1个
 - 螺旋桨，5寸
+- 脚架，高度>15cm
 
-.. figure:: ../../../_static/videos/crazyflie_bolt_1.1/crazyflie_bolt_1.1_QAV250_1.jpg
+.. figure:: ../../../_static/videos/crazyflie_bolt_1.1/crazyflie_bolt_1.1_QAV250_2_3S440g_load342g.png
    :align: center
    :figclass: align-center
+
+飞行视频
+--------
+
+.. raw:: html
+
+   <div style="text-align: center">
+      <video width="100%" height="auto" controls autoplay muted loop>
+         <source src="../../../_static/videos/crazyflie_bolt_1.1/crazyflie_bolt_1.1_QAV250_2_3S440g_load342g.mp4" type="video/mp4">
+         Your browser does not support the video tag.
+      </video>
+   </div>
 
 .. raw:: html
 
@@ -41,6 +54,12 @@ Crazyflie Bolt 1.1 只是一个主控板，做成飞控还需要其他很多配�
 
 - 格氏ACE 2000mAh 20C 2S 7.4V 电池：14分钟
 - 格氏ACE 800mAh 45C 3S 11.1V 电池：09分钟
+
+载重能力
+--------
+
+- 格氏ACE 2000mAh 20C 2S 7.4V，飞行器+电池 = 464克，额外负载 = 206克
+- 格氏ACE 800mAh 45C 3S 11.1V 飞行器+电池 = 440克，额外负载 = 342克
 
 Crazyflie bolt 1.1主控板
 -------------------------
