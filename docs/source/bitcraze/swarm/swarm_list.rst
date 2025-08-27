@@ -97,7 +97,7 @@ GitHub 仓库：
 (3) 修改5个飞行器地址
 (4) 下载程序 
 
-- `crazyflie-lib-python-master_20250218 <../../_static/videos/swarm/5crazyflie_flowdeck_hover/crazyflie-lib-python-master_20250218>`_
+- `crazyflie-lib-python-master_20250218 <../../_static/videos/swarm/5crazyflie_flowdeck_hover/crazyflie-lib-python-master_20250218.rar>`_
 
 .. figure:: ../../_static/videos/swarm/5crazyflie_flowdeck_hover/py_path.jpg
    :align: center

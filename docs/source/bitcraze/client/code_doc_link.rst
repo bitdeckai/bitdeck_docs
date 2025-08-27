@@ -44,6 +44,8 @@ Crazyflie client 上位机
 
    Matlab API：https://www.bitcraze.io/documentation/repository/crazyflie-lib-python/master/development/matlab/
 
+   速度控制：https://www.bitcraze.io/documentation/repository/crazyflie-lib-python/master/api/cflib/positioning/motion_commander/
+
 Crazyflie firmware 飞行器
 -------------------------------------
 
