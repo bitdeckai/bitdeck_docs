@@ -199,6 +199,7 @@
    bitcraze/client/android
    bitcraze/client/iPhone
    bitcraze/client/code_doc_link
+   bitcraze/client_api/client_api
    bitcraze/crazyradio/crazyradio_list
    bitcraze/crazyflie/crazyflie_list
    bitcraze/deck/deck_list

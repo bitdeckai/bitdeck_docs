@@ -120,4 +120,3 @@ Loco Positioning node
    代码：https://github.com/bitcraze/lps-node-firmware
 
    介绍：https://www.bitcraze.io/documentation/repository/lps-node-firmware/master/
-
