@@ -1,6 +1,14 @@
 Crazyflie 2.1/Bolt/Brushless
 ==============================
 
+坐标系
+---------
+
+.. figure:: ../../_static/images/crazyflie_coordinate.png
+   :align: center
+   :alt: crazyflie-overview
+   :figclass: align-center
+
 固件升级
 ---------
 
