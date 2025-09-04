@@ -10,5 +10,6 @@ crazyflie-lib-python list
    :caption: Crazyflie
 
    speed_control
+   position_control
 
 
