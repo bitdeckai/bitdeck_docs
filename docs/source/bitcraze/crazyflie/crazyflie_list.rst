@@ -19,6 +19,41 @@ Crazyflie 2.1/Bolt/Brushless
 要进入 Crazyflie 2.X 的引导加载程序，请关闭平台电源，然后按住电源按钮至少 1.5 秒（但不超过 5 秒）重新启动平台。
 当右下角M2蓝灯进入闪烁状态，证明进入bootloader状态，可以松开按键，M3蓝灯也会开始闪烁。
 
+从上位机中升级
+--------------
+
+   (1) 升级需要安装上位机 Crazyflie PC cfclients
+   
+   (2) 1台飞行器Crazyflie2.1
+
+   (3) 1个CrazyradioPA或者Crazyradio2.0
+
+   (4) 固件来源 https://github.com/bitcraze/crazyflie-release/releases
+
+      crazyflie bolt 1.1 固件名称: firmware-bolt-2025.02.zip
+   
+      crazyflie 2.1 固件名称: firmware-cf2-2025.02.zip
+   
+      crazyflie 2.1 brushless 固件名称: firmware-cf21bl-2025.02.zip
+
+   (5) 根据自己的飞行器对准型号，然后再升级，否则会变砖
+
+升级文件如下，注意firmware-cf2-2023.11和firmware-cf2-2025.02比较大的区别是蓝牙协议栈，从S110替换成S130了
+
+- `firmware-cf2-2023.11.zip <../../_static/ota/firmware-cf2-2023.11.zip>`_
+
+- `firmware-cf2-2025.02.zip <../../_static/ota/firmware-cf2-2025.02.zip>`_
+
+.. figure:: ../../_static/ota/ota_file_load_all.png
+   :align: center
+   :alt: crazyflie-overview
+   :figclass: align-center
+
+.. figure:: ../../_static/ota/ota_console_print_all.png
+   :align: center
+   :alt: crazyflie-overview
+   :figclass: align-center
+
 从程序中升级
 --------------
 
