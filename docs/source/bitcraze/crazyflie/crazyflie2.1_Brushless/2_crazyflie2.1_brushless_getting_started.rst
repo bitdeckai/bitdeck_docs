@@ -1,4 +1,4 @@
-Crazyflie bolt 1.1 入门指南
+Crazyflie2.1 Brushless 入门指南
 ================================
 
 .. contents:: 目录

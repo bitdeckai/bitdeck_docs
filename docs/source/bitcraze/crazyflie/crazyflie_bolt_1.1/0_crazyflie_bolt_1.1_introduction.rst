@@ -2,7 +2,7 @@ Crazyflie bolt 1.1 介绍
 =======================
 
 .. contents:: 目录
-    :depth: 2
+    :depth: 3
     :local:
     
 Crazyflie Bolt 1.1 是一款兼容 Crazyflie 2.x 的无刷飞行控制器。它旨在具有 Crazyflie 2.1 的优势，但体积略大一些。Crazyflie Bolt 1.1 运行与 Crazyflie 2.1 相同的固件基础，并包含相同的 IMU。因此，您可以先使用小得多的 Crazyflie 2.1 开始开发，然后随着应用程序的增长而扩展。
@@ -77,15 +77,3 @@ IMU 规格
 
 - `原理图 <../../../_static/products/crazyflie-bolt-1_1/electronics/crazyflie_bolt_1_1_revh.pdf>`_
 
-使用手册
-----------------
-
-.. toctree::
-   :maxdepth: 6
-   :caption: Crazyflie User Manual
-
-   1_crazyflie_bolt_1.1_assembly
-   2_crazyflie_bolt_1.1_getting_started
-   3_crazyflie_bolt_1.1_QAV250
-   4_crazyflie_bolt_1.1_F330
-   5_crazyflie_bolt_1.1_F450

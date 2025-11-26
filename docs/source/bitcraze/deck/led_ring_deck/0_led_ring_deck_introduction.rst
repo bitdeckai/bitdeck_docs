@@ -63,12 +63,3 @@ LED-ring deck
 - `led_ring_deck 数据手册 <../../../_static/products/led-ring-deck/datasheet/led_ring_deck-datasheet.pdf>`_
 
 - `led_ring_deck 原理图 <../../../_static/products/led-ring-deck/electronics/led-ring_revb.pdf>`_
-
-使用手册
-----------------
-
-.. toctree::
-   :maxdepth: 6
-   :caption: LED-ring deck 用户手册
-
-   1_led_ring_deck_assembly

@@ -48,12 +48,3 @@ qi-deck-1_2 deck
 - `qi-deck-1_2 数据手册 <../../../_static/products/qi-deck-1_2/datasheet/qi_deck_1_2-datasheet.pdf>`_
 
 - `qi-deck-1_2 原理图 <../../../_static/products/qi-deck-1_2/electronics/qi_1_2-revc.pdf>`_
-
-使用手册
----------
-
-.. toctree::
-   :maxdepth: 6
-   :caption: qi-deck-1_2 deck 用户手册
-
-   1_qi_deck_assembly

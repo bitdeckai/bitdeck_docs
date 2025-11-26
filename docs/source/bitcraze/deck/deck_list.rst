@@ -531,9 +531,23 @@ Deck
    :caption: Crazyflie All Deck
 
    lighthouse_deck/0_lighthouse_deck_introduction
+   lighthouse_deck/1_lighthouse_deck_assembly
+   lighthouse_deck/2_lighthouse_deck_getting_started
+   lighthouse_deck/3_lighthouse_deck_interference
    loco_deck/0_loco_deck_introduction
+   loco_deck/1_loco_deck_assembly
+   loco_deck/2_loco_deck_getting_started
    flow2_deck/0_flow2_deck_introduction
+   flow2_deck/1_flow2_deck_assembly
+   flow2_deck/2_flow2_deck_getting_started
+   flow2_deck/3_flow2_deck_STEM_bundle
    Multi-ranger_deck/0_multi-ranger_deck_introduction
+   Multi-ranger_deck/1_multi-ranger_deck_assembly
+   Multi-ranger_deck/2_multi-ranger_deck_getting_started
+   Multi-ranger_deck/3_multi-ranger_deck_STEM_bundle
    microSD_deck/0_microSD_deck_introduction
+   microSD_deck/1_microSD_deck_assembly
    led_ring_deck/0_led_ring_deck_introduction
+   led_ring_deck/1_led_ring_deck_assembly
    qi_deck/0_qi_deck_introduction
+   qi_deck/1_qi_deck_assembly

@@ -74,13 +74,3 @@ Loco定位节点是 Loco 定位系统中的多功能节点，它可以充当锚�
 
 - `loco-deck 数据手册 <../../../_static/products/loco-deck/datasheet/loco_deck-datasheet.pdf>`_
 - `loco-deck 原理图(rev. D) <../../../_static/products/loco-deck/electronics/loco_deck_revd.pdf>`_
-
-使用手册
-----------------
-
-.. toctree::
-   :maxdepth: 6
-   :caption: Loco 用户手册
-
-   1_loco_deck_assembly
-   2_loco_deck_getting_started

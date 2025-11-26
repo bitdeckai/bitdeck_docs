@@ -2,7 +2,7 @@ Crazyflie2.1 介绍
 ===================
 
 .. contents:: 目录
-    :depth: 2
+    :depth: 3
     :local:
     
 Crazyflie 2.1+ 是一个多功能的开源飞行开发平台，重量仅为 27 克，可握在手掌中。
@@ -136,12 +136,3 @@ Crazyflie 2.1+ 是一个开源项目，其源代码和硬件原理图均已记�
 
 - `原理图 <../../../_static/products/crazyflie-2_1_plus/electronics/crazyflie_2.1_schematics_rev.b.pdf>`_
 
-使用手册
-----------------
-
-.. toctree::
-   :maxdepth: 6
-   :caption: Crazyflie User Manual
-
-   1_crazyflie2.1_assembly
-   2_crazyflie2.1_getting_started

@@ -273,12 +273,3 @@ config.txt文件举例如下:
 - `sd_card_deck 数据手册 <../../../_static/products/sd-card-deck/datasheet/sd_card_deck-datasheet.pdf>`_
 
 - `sd_card_deck 原理图 <../../../_static/products/sd-card-deck/electronics/sdcard_revd.pdf>`_
-
-使用手册
-----------------
-
-.. toctree::
-   :maxdepth: 6
-   :caption: microSD deck 用户手册
-
-   1_microSD_deck_assembly

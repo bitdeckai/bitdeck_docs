@@ -91,15 +91,3 @@ V1 和 V2
 
 - `lighthouse_deck 数据手册 <../../../_static/products/lighthouse-deck/datasheet/lighthouse_deck-datasheet.pdf>`_
 - `lighthouse_deck 原理图 <../../../_static/products/lighthouse-deck/electronics/lighthouse_deck-revd.pdf>`_
-
-
-使用手册
-----------------
-
-.. toctree::
-   :maxdepth: 6
-   :caption: Lighthouse deck 用户手册
-
-   1_lighthouse_deck_assembly
-   2_lighthouse_deck_getting_started
-   3_lighthouse_deck_interference

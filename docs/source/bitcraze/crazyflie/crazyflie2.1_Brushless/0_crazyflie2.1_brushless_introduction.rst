@@ -2,7 +2,7 @@ Crazyflie2.1 Brushless 介绍
 ============================
 
 .. contents:: 目录
-    :depth: 2
+    :depth: 3
     :local:
     
 Crazyflie 2.1 Brushless 是一款多功能开源飞行开发平台，重量仅为 32 克，可握在手掌中。
@@ -179,13 +179,3 @@ KV 值对性能的影响
 
 - 如果目标是高速穿越或竞技飞行，推荐使用 **KV19500**；
 - 如果目标是稳定飞行、搭载负载或长时间任务飞行，推荐使用 **KV10000**。
-
-使用手册
-----------------
-
-.. toctree::
-   :maxdepth: 6
-   :caption: Crazyflie User Manual
-
-   1_crazyflie2.1_brushless_assembly
-   2_crazyflie2.1_brushless_getting_started
