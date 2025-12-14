@@ -6,7 +6,7 @@ ROS2与Lighthouse定位系统-配置基站通道（4个基站）
 
 介绍如何设置4个基站
 由于Lighthouse定位系统基于红外光和激光进行定位。如果部署环境中存在其他红外光束，可能会导致定位失败。
-Crazyflie无人机集群套件，采购地址
+Crazyflie无人机集群套件 `采购地址 <https://item.taobao.com/item.htm?ft=t&id=858112103307&spm=a21dvs.23580594.0.0.52de2c1bg17fUu>`_
 第一步：打开cfclient
 cfclient是crazyswam的调试程序，可以通过cfclient对无人机进行固件烧录、通道设置、定位系统校准、日志查看等功能。
 在终端中打开cfclient

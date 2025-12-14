@@ -1,19 +1,21 @@
-ROS2与Lighthouse定位系统-更新固件
-============================
+ROS2与Lighthouse定位系统-测试单台无人机起飞和降落
+===============================================
 说明
 --------------------------------
 
 介绍如何通过crazyswarm2测试单台无人机的8字飞行
 本测试基于无人机集群主机配置，如果是自己配置，请参考官方文档
-Crazyflie无人机集群套件，采购地址
+Crazyflie无人机集群套件 `采购地址 <https://item.taobao.com/item.htm?ft=t&id=858112103307&spm=a21dvs.23580594.0.0.52de2c1bg17fUu>`_
 仿真飞行
 在真机测试之前，我们先做以下仿真
 进入目录
 cd scripts_ros
 scripts_ros是一个软连接，对应到crazyswarm2/crazyflie_examples/crazyflie_examples目录
 仿真运行，启动launch文件，并指定为仿真
-ubuntu@Crazeflie-NUC:~/scripts_ros2$ ros2 launch crazyflie launch.py backend:=sim
 
+.. code-block:: bash
+
+ubuntu@Crazeflie-NUC:~/scripts_ros2$ ros2 launch crazyflie launch.py backend:=sim
 [INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2024-04-03-11-35-24-423922-Crazeflie-NUC-21702
 [INFO] [launch]: Default logging verbosity is set to INFO
 [INFO] [crazyflie_server-3]: process started with pid [21708]
