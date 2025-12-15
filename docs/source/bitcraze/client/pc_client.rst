@@ -40,6 +40,12 @@ crazyflie client安装
 
    python -m cfclient.gui
 
+如果需要从旧版本更新到新版本
+
+.. code-block:: bash
+
+   pip install --upgrade cfclient
+
 .. figure:: ../../_static/images/cfclient/windows_cfclient_cmd.jpg
    :align: center
    :alt: win-install
