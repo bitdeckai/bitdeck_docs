@@ -1,4 +1,4 @@
-Lighthouse 入门指南
+Lighthouse 干扰说明
 ===================
 
 .. contents:: 目录

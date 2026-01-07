@@ -12,7 +12,7 @@ Crazyflie Bolt 1.1 只是一个主控板，做成飞控还需要其他很多配�
 - Little Bee小蜜蜂电调迷你Blheli-S穿越机无刷电调20A 30A固定翼，30A(2-4S供电);高速电调，4个(2-4S供电)
 - 穿越机 电机 2204-2300KV skywalker 航模 无刷 马达 四轴穿越机，2204 2300KV电机 4S，4个(2-4S供电)
 - 格氏ACE 格式3S 11.1V 3s 7.4v 820mAh，1个
-- 螺旋桨，5寸
+- 螺旋桨，GEMFAN 乾丰 5126 2叶 5寸
 - 脚架，高度>15cm
 
 .. figure:: ../../../_static/videos/crazyflie_bolt_1.1/crazyflie_bolt_1.1_QAV250_2_3S440g_load342g.png
@@ -98,6 +98,6 @@ QAV250机架
 
 螺旋桨
 --------
-.. figure:: ../../../_static/videos/crazyflie_bolt_1.1/Gemfan_propeller_5126-2.jpg
+.. figure:: ../../../_static/videos/crazyflie_bolt_1.1/Gemfan_propeller_5126-2.png
    :align: center
    :figclass: align-center
