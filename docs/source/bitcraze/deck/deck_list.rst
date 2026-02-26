@@ -545,6 +545,7 @@ Deck
    Multi-ranger_deck/1_multi-ranger_deck_assembly
    Multi-ranger_deck/2_multi-ranger_deck_getting_started
    Multi-ranger_deck/3_multi-ranger_deck_STEM_bundle
+   Multi-ranger_deck/4_multi-ranger_deck_client_test
    microSD_deck/0_microSD_deck_introduction
    microSD_deck/1_microSD_deck_assembly
    led_ring_deck/0_led_ring_deck_introduction
