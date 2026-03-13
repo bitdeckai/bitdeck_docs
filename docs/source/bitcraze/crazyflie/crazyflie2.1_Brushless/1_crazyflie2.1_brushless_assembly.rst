@@ -32,7 +32,7 @@ Crazyflie2.1 Brushless 组装
 
    <div style="text-align: center">
       <video width="100%" height="auto" controls autoplay muted loop>
-         <source src="../../../_static/assembly/Crazyflie2.1_Brushless/1.mp4" type="video/mp4">
+         <source src="../../../_static/assembly/Crazyflie2.1_brushless/1.mp4" type="video/mp4">
          Your browser does not support the video tag.
       </video>
    </div>
@@ -41,7 +41,7 @@ Crazyflie2.1 Brushless 组装
 
    <div style="text-align: center">
       <video width="100%" height="auto" controls autoplay muted loop>
-         <source src="../../../_static/assembly/Crazyflie2.1_Brushless/2.mp4" type="video/mp4">
+         <source src="../../../_static/assembly/Crazyflie2.1_brushless/2.mp4" type="video/mp4">
          Your browser does not support the video tag.
       </video>
    </div>
@@ -50,7 +50,7 @@ Crazyflie2.1 Brushless 组装
 
    <div style="text-align: center">
       <video width="100%" height="auto" controls autoplay muted loop>
-         <source src="../../../_static/assembly/Crazyflie2.1_Brushless/3.mp4" type="video/mp4">
+         <source src="../../../_static/assembly/Crazyflie2.1_brushless/3.mp4" type="video/mp4">
          Your browser does not support the video tag.
       </video>
    </div>  
