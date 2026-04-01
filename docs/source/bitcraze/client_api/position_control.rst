@@ -178,6 +178,16 @@ Windows PowerShell 示例：
 
    Position: X=0.123, Y=-0.045, Z=0.812
 
+实际运行结果示例图：
+
+.. figure:: ../../_static/develop/crazyflie-lib-python/lighthouse_simple_position.png
+   :align: center
+   :alt: lighthouse_simple_position.py 终端输出示例
+   :figclass: align-center
+   :width: 100%
+
+   lighthouse_simple_position.py 执行时的终端输出截图。
+
 其中：
 
 - ``X`` 表示前后或坐标系 X 方向位置。
