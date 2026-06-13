@@ -44,6 +44,19 @@ GitHub 仓库：
    crazyswarm2：
    https://imrclab.github.io/crazyswarm2/installation.html
 
+crazyswarm修改type问题
+------------------------
+虽然提供的电机也是716空心杯，但是因为默认比官方的载重大一些，螺旋桨是50mm的，所以需要修改一下电机的type=medium，才能正常和稳定飞行。
+目录如下：
+
+   https://github.com/USC-ACTLab/crazyswarm.git
+
+   crazyswarm/ros_ws/src/crazyswarm/launch/allCrazyflies.yaml
+
+.. figure:: ../../_static/videos/swarm/crazyswarm/crazyflie_type.png
+   :align: center
+   :figclass: align-center
+
 飞行器地址修改
 ----------------
  
