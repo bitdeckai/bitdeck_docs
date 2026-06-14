@@ -1,0 +1,10 @@
+//terminal 1
+cd /home/bitcraze/crazyswarm/
+source ros_ws/devel/setup.bash
+roslaunch crazyswarm hover_swarm.launch
+
+//terminal 2
+cd /home/bitcraze/crazyswarm/
+source ros_ws/devel/setup.bash
+cd /home/bitcraze/crazyswarm/ros_ws/src/crazyswarm/scripts
+python3 hello_world.py

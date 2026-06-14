@@ -229,7 +229,11 @@ crazyswarm修改type问题
       </video>
    </div>
 
+Crazyswarm
+-----------------
+
 .. toctree::
    :maxdepth: 6
    :caption: Crazyswarm
 
+   crazyswarm1_develop/0_crazyswarm1_start.rst
