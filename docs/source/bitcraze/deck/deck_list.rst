@@ -552,3 +552,4 @@ Deck
    led_ring_deck/1_led_ring_deck_assembly
    qi_deck/0_qi_deck_introduction
    qi_deck/1_qi_deck_assembly
+   matrix_ranger_deck/0_matrix_ranger_deck_introduction
