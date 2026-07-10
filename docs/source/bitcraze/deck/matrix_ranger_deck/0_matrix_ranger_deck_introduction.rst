@@ -79,6 +79,14 @@ Matrix Ranger deck 采用双 VL53L5CX（8x8 多区域 ToF）方案，结合 Craz
 
 代码太大了，无法上传，有需求直接找作者获取。
 
+crazyflie-firmware-2024.10.2_matrix_ranger_deck 也可以到github上获取
+
+https://github.com/bitdeckai/crazyflie-firmware/tree/feature/matrix-ranger-submit
+
+增加的代码如下
+
+https://github.com/bitdeckai/crazyflie-firmware/commit/87264c3757c65b548e30974bd58cb225edf80989
+
 在完成固件编译环境配置后，可参考 Crazyflie 官方流程进行构建与烧录。
 
 crazyflie-firmware-2023.07_matrix_ranger_deck.zip 固件修改之后，Console显示如下：

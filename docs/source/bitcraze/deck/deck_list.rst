@@ -553,3 +553,4 @@ Deck
    qi_deck/0_qi_deck_introduction
    qi_deck/1_qi_deck_assembly
    matrix_ranger_deck/0_matrix_ranger_deck_introduction
+   matrix_ranger_deck/0_matrix_ranger_deck_add_code
