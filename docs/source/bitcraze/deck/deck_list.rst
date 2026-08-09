@@ -554,3 +554,4 @@ Deck
    qi_deck/1_qi_deck_assembly
    matrix_ranger_deck/0_matrix_ranger_deck_introduction
    matrix_ranger_deck/0_matrix_ranger_deck_add_code
+   esp32s3_ai_deck/0_esp32s3_ai_deck_introduction
