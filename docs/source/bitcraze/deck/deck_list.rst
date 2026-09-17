@@ -534,6 +534,7 @@ Deck
    lighthouse_deck/1_lighthouse_deck_assembly
    lighthouse_deck/2_lighthouse_deck_getting_started
    lighthouse_deck/3_lighthouse_deck_interference
+   lighthouse_deck/4_lighthouse_deck_getting_started_2608
    loco_deck/0_loco_deck_introduction
    loco_deck/1_loco_deck_assembly
    loco_deck/2_loco_deck_getting_started
