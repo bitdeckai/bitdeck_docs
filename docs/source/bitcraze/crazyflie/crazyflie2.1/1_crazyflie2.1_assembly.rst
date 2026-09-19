@@ -1,4 +1,4 @@
-Crazyflie 2.X 组装
+Crazyflie2.1 组装
 ==================
 
 .. contents:: 目录

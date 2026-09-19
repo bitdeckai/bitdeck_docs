@@ -206,4 +206,4 @@
    bitcraze/crazyflie/crazyflie_list
    bitcraze/deck/deck_list
    bitcraze/swarm/swarm_list
-   bitcraze/STEM/1_aily_blockly_flow2_deck_STEM_bundle
+   bitcraze/STEM/crazyflie_STEM

@@ -29,7 +29,7 @@ Crazyflie STEM aily blockly 模拟飞行平台
 整体硬件展示
 -------------
 
-.. figure:: ../../_static/STEM/crazyflie2.1_stem_bundle.jpg
+.. figure:: ../../../_static/STEM/crazyflie2.1_stem_bundle.jpg
    :align: center
    :figclass: align-center
 
@@ -40,19 +40,19 @@ Crazyflie STEM aily blockly 模拟飞行平台
 
 当前平台已经能够通过脚本模拟 Crazyflie 的起飞与飞行过程，包含起飞、上升、前进、下降和降落等典型动作。下面的图片展示了实现效果。
 
-.. figure:: ../../_static/STEM/aily_blockly_crazyflie2.1_takeoff.jpg
+.. figure:: ../../../_static/STEM/aily_blockly_crazyflie2.1_takeoff.jpg
    :align: center
    :figclass: align-center
 
    模拟起飞状态
 
-.. figure:: ../../_static/STEM/aily_blockly_crazyflie2.1_takeoff_up.jpg
+.. figure:: ../../../_static/STEM/aily_blockly_crazyflie2.1_takeoff_up.jpg
    :align: center
    :figclass: align-center
 
    模拟上升状态
 
-.. figure:: ../../_static/STEM/aily_blockly_crazyflie2.1_takeoff_land.jpg
+.. figure:: ../../../_static/STEM/aily_blockly_crazyflie2.1_takeoff_land.jpg
    :align: center
    :figclass: align-center
 
@@ -65,7 +65,7 @@ Crazyflie STEM aily blockly 模拟飞行平台
 
    <div style="text-align: center">
       <video width="100%" height="auto" controls autoplay muted loop>
-         <source src="../../_static/STEM/aily_blockly_crazyflie2.1_takeoff.mp4" type="video/mp4">
+         <source src="../../../_static/STEM/aily_blockly_crazyflie2.1_takeoff.mp4" type="video/mp4">
          Your browser does not support the video tag.
       </video>
    </div>

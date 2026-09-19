@@ -1,4 +1,4 @@
-Crazyflie 2.X 配置地址
+Crazyflie2.1 配置地址
 ========================
 
 .. contents:: 目录

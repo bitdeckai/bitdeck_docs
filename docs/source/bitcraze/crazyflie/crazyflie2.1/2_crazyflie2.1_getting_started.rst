@@ -1,4 +1,4 @@
-Crazyflie 2.X 入门指南
+Crazyflie2.1 入门指南
 ========================
 
 .. contents:: 目录
@@ -33,12 +33,19 @@ LED灯定义
 控制 Crazyflie
 -------------------
 
-您可以通过移动设备或计算机驾驶 Crazyflie。
+控制Crazyflie的方式有2种：
+（1）手机，安卓和苹果移动设备
+（2）计算机
 
-手机控制
+1 手机控制
 ~~~~~~~~~~~
 
 使用移动设备是飞行最快的方式，但可能需要更多的驾驶技能。
+
+有关 Android 和 iPhone 平台的详细说明，请参阅：
+
+- `Crazyflie Android 客户端 <../client/android.html>`_
+- `Crazyflie iPhone 客户端 <../client/iPhone.html>`_
 
 安装应用程序并连接到 Crazyflie 非常简单。您只需要一台支持低功耗蓝牙 (BLE) 的 Android 或 iOS 设备。
 
@@ -68,12 +75,37 @@ Crazyflie 客户端适用于 Android 和 iOS。
    :alt: crazyflie-overview
    :figclass: align-center
 
-电脑控制
+2 电脑控制
 ~~~~~~~~~~~
 
-使用您的计算机需要Crazyradio 2.0 或 Crazyradio PA 和游戏手柄，但可以为您提供更多选项和更好的控制。
+使用您的计算机需要 Crazyradio 2.0 或 Crazyradio PA 和游戏手柄，但可以为您提供更多选项和更好的控制。
 
-当使用计算机驾驶 Crazyflie 时，您还需要一个标准游戏手柄（更多信息）用于操控，以及一个Crazyradio 2.0 或 Crazyradio PA 进行通讯。
+在电脑端控制前，建议先完成以下准备：
+
+- `Crazyflie PC 客户端安装说明 <../../client/pc_client.html>`_
+- `Crazyradio PA 或者 Crazyradio 2.0 驱动与通信设备说明 <../../crazyradio/crazyradio_list.html>`_
+
+当使用计算机驾驶 Crazyflie 时，您还需要一个标准游戏手柄（更多信息）用于操控，以及一个 Crazyradio 2.0 或 Crazyradio PA 进行通讯。
+
+推荐的游戏手柄型号
+^^^^^^^^^^^^^^^^^^^^
+
+以下几种手柄通常兼容 Crazyflie 的 PC 客户端控制体验，并适合用于飞行训练和演示：
+
+- Xbox One / Xbox Series X|S 无线手柄（适用于 Windows 系统，连接稳定，操控直观）
+- Xbox 360 手柄（兼容性高，使用广泛，适合初学者）
+- DualShock 4 无线手柄（适用于 Windows 上的蓝牙或 USB 接入，操控感受较好）
+- Logitech F710 无线手柄（适合 PC 平台，稳定性较好，适合教学场景）
+- 兼容 PS3 / PS4 的通用手柄（使用前建议确认驱动与映射正常）
+
+通常建议优先选择支持 USB 连接、输入映射清晰、左右摇杆和按键反馈稳定的手柄。Windows 下，Xbox 系列手柄和 Logitech F710 的兼容性通常较好，适合大多数用户直接上手。
+
+.. figure:: ../../../_static/images/controller/xbox360.png
+   :align: center
+   :alt: xbox360-controller
+   :figclass: align-center
+
+常见推荐型号示例：Xbox 360 手柄
 
 有几种运行 PC 客户端的方法
 
@@ -202,23 +234,18 @@ MacOS 安装
    :alt: crazyflie-overview
    :figclass: align-center
 
+游戏手柄映射过程示例：
+
+.. raw:: html
+
+   <div style="text-align: center">
+      <video width="100%" height="auto" controls autoplay muted loop>
+         <source src="../../../_static/videos/xbox_controller/xbox360_mapping.mp4" type="video/mp4">
+         Your browser does not support the video tag.
+      </video>
+   </div>
+
 有关输入设备的更多详细信息，请参阅客户端用户指南。https://www.bitcraze.io/documentation/repository/crazyflie-clients-python/master/userguides/inputdevices/
-
-在 Crazyflie 中更新固件
-~~~~~~~~~~~~~~~~~~~~~~~
-
-- 在 Crazyflie 客户端中选择正确的地址。默认值为 0xE7E7E7E7E7。要确定或更改Crazyflie 的地址，您可以按照无线电地址配置指南进行操作。
-- 然后点击左上角的扫描按钮。Crazyflie 的无线电设置显示在下拉列表中。
-- 从下拉列表中选择您的 Crazyflie。
-
-.. figure:: ../../../_static/images/getting-started/connect_to_the_crazyflie.PNG
-   :align: center
-   :alt: crazyflie-overview
-   :figclass: align-center
-
-- 单击“连接”按钮。
-
-现在您已将 Crazyflie 连接到客户端，遥测数据会从直升机持续发送到客户端。当您移动 Crazyflie 时，您将看到实时更新的飞行数据，以及电池状态和链接质量。
 
 起飞
 ----
@@ -251,7 +278,7 @@ MacOS 安装
 
 游戏手柄或移动应用程序上的控件具有以下映射：
 
-.. figure:: ../../../_static/images/getting-started/controller.PNG
+.. figure:: ../../../_static/images/getting-started/controller.png
    :align: center
    :alt: crazyflie-overview
    :figclass: align-center
@@ -271,6 +298,16 @@ MacOS 安装
       </video>
    </div>
 
+手柄控制飞行示例：
+
+.. raw:: html
+
+   <div style="text-align: center">
+      <video width="100%" height="auto" controls autoplay muted loop>
+         <source src="../../../_static/videos/xbox_controller/xbox360_flying.mp4" type="video/mp4">
+         Your browser does not support the video tag.
+      </video>
+   </div>
 
 地面效应
 ~~~~~~~~~
