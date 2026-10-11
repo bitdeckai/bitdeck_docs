@@ -17,6 +17,13 @@ Crazyflie Code Doc
 
    https://wiki.bitcraze.io/misc:downloads:index
 
+
+Crazyflie，Crazyradio 和 deck 基础测试代码
+-------------------------------------------
+
+代码：https://github.com/bitdeckai/crazyflie_test_code
+
+
 Crazyflie client 上位机
 ---------------------------------
 
