@@ -53,6 +53,10 @@ Crazyflie client 上位机
 
    速度控制：https://www.bitcraze.io/documentation/repository/crazyflie-lib-python/master/api/cflib/positioning/motion_commander/
 
+   示例1： https://github.com/bitcraze/crazyflie-lib-python/tree/master/examples
+   示例2： https://github.com/bitcraze/crazyflie-demos
+   参考文档： https://www.bitcraze.io/2026/05/crazyflie-demos-a-new-home-for-crazyflie-examples/
+
 Crazyflie firmware 飞行器
 -------------------------------------
 
